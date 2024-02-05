@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="HobbesLink_Base" Name="HobbesLinkPower_Base" Abstract="True"></ThingDef>
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_CoolingModule</defName>
+    <label>cooling module</label>
+    <description>Increases power output by 40%. Limit 2 per generator.\n\nThis power plant cooling module efficiently cools hot water or steam, ensuring it condenses back into reusable water. It adeptly manages waste heat, maintaining optimal temperatures to keep the power plant running smoothly.</description>
+    <tickerType>Long</tickerType>
+    <uiIconPath>UI/CoolingModule</uiIconPath>
+    <uiIconScale>1.85</uiIconScale>
+    <graphicData>
+      <texPath>Things/Buildings/Power/CoolingModule</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4,3)</drawSize>
+      <drawOffset>(0,3,0)</drawOffset>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.4</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <maxDistance>8</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Alternator</defName>
+    <label>alternator</label>
+    <description>Increases power output by 20%. Limit 2 per generator.\n\nThis alternator is a dynamic electrical generator, seamlessly transforming mechanical energy into the essential alternating current (AC) electrical power for your systems.</description>
+    <uiIconPath>UI/Alternator</uiIconPath>
+    <uiIconScale>2</uiIconScale>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Alternator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.2</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <maxDistance>8</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Pylon</defName>
+    <label>power pylon</label>
+    <description>Increases power output by 5%. Limit 16 per generator.\n\nThis power pylon, a vital link, enhances the efficiency of connected power-producing structures. It optimizes energy flow for improved overall performance.</description>
+    <uiIconPath>UI/3HSTPowerPylon</uiIconPath>
+    <graphicData>
+      <texPath>Things/Buildings/Power/3HSTPowerPylon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <drawOffset>(0,4,0.3)</drawOffset>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.05</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>16</maxSimultaneous>
+        <maxDistance>4</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_BreakerBox</defName>
+    <label>breaker box</label>
+    <description>Increases power output by 5% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis breaker box, when strategically positioned near a power generator, significantly boosts its efficiency. Acting as a key element, it optimizes power distribution for enhanced functionality in your electrical network.</description>
+    <graphicData>
+      <texPath>Things/Buildings/Power/3HSTBreakerBox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.05</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_CoolingTower</defName>
+    <label>cooling tower</label>
+    <description>Increases power output by 60% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis cooling tower is a powerhouse in enhancing generator efficiency. Skillfully regulating temperatures, it ensures optimal performance, making it an indispensable component for your power generation network.</description>
+    <uiIconScale>0.7</uiIconScale>
+    <fillPercent>1</fillPercent>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Prop_3HSTCoolingTower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4.5,4.5)</drawSize>
+      <drawOffset>(0,4,0.75)</drawOffset>
+      <shadowData>
+        <volume>(3, 0.8, 3)</volume>
+      </shadowData>
+    </graphicData>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.6</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Transformer</defName>
+    <label>transformer</label>
+    <description>Increases power output by 20%. Limit 2 per generator.\n\nThis transformer seamlessly transfers energy between circuits through electromagnetic induction. By adeptly adjusting voltage levels, it enables efficient transmission and distribution of electrical power across long distances, a cornerstone for effective energy management.</description>
+    <uiIconPath>UI/Transformer</uiIconPath>
+    <uiIconScale>1.5</uiIconScale>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Transformer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,3)</drawSize>
+      <drawOffset>(0,3,0)</drawOffset>
+    </graphicData>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.2</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <maxDistance>8</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Spacer_LiquidPower</defName>
+    <label>spacer liquid power booster</label>
+    <description>Increases power output by 50% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis spacer liquid power booster employs electrically negative liquids, elevating generator performance. As a cutting-edge device, it optimizes power output, ensuring a dynamic enhancement to your energy generation capabilities.</description>
+    <uiIconScale>1.25</uiIconScale>
+    <uiIconPath>UI/Prop_3HSTPBM</uiIconPath>
+    <fillPercent>0.6</fillPercent>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Prop_3HSTPBM/Prop_3HSTPBM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(8,8)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <shadowData>
+        <volume>(5, 0.8, 4.4)</volume>
+      </shadowData>
+    </graphicData>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <size>(5,5)</size>
+    <statBases>
+      <WorkToBuild>50000</WorkToBuild>
+      <Mass>500</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>500</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.5</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Spacer_Transformer</defName>
+    <label>spacer transformer</label>
+    <description>Increases power output by 100% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis spacer transformer seamlessly transfers energy between quantum circuits through electroquantumic induction. By dynamically adjusting voltage levels, it facilitates the efficient transmission and distribution of electrical power over extended distances, revolutionizing energy management in your advanced systems.</description>
+    <uiIconScale>1.35</uiIconScale>
+    <uiIconPath>UI/Prop_3HSTfusionGenerator</uiIconPath>
+    <fillPercent>0.6</fillPercent>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Prop_3HSTfusionGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(8,8)</drawSize>
+      <drawOffset>(0,4,0)</drawOffset>
+      <shadowData>
+        <volume>(5, 0.8, 4.5)</volume>
+      </shadowData>
+    </graphicData>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <size>(5,5)</size>
+    <statBases>
+      <WorkToBuild>36000</WorkToBuild>
+      <Mass>250</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>350</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>1</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Spacer_CoolantPump</defName>
+    <label>spacer coolant pump</label>
+    <description>Increases power output by 50% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis spacer coolant pump is a game-changer for power generators. It empowers them to enhance effectiveness by efficiently managing temperatures. A crucial component in your advanced system, this pump ensures optimal performance and longevity.</description>
+    <uiIconScale>1.35</uiIconScale>
+    <uiIconPath>UI/Prop_3HSTPump</uiIconPath>
+    <fillPercent>0.5</fillPercent>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Prop_3HSTPump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <shadowData>
+        <volume>(3, 0.8, 3)</volume>
+      </shadowData>
+    </graphicData>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <size>(3,3)</size>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>75</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>125</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.5</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Spacer_Console</defName>
+    <label>spacer power console</label>
+    <description>Increases power output by 25% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis spacer power generator console, intricately linked, empowers advanced programming to optimize generator effectiveness. A technological marvel, it enables precision control, unlocking peak performance for your power generation system.</description>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <uiIconPath>UI/Prop_3HSTServerConsole</uiIconPath>
+    <uiIconScale>1.75</uiIconScale>
+    <fillPercent>0.9</fillPercent>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Prop_3HSTServerConsole/Prop_3HSTServerConsole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <shadowData>
+        <volume>(1, 0.8, 1)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <passability>Impassable</passability>
+    <statBases>
+      <WorkToBuild>25000</WorkToBuild>
+      <Mass>125</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.25</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="HobbesLinkPower_Base">
+    <defName>HobbesLink_Spacer_Condensator</defName>
+    <label>spacer condensator</label>
+    <description>Increases power output by 10%. Limit 4 per generator.\n\nThis spacer intelligent condensator module utilizes static recurrency in electrical generators. Its intelligent design significantly boosts their effectiveness, serving as a key component for enhanced performance in your advanced technological landscape.</description>
+    <uiIconScale>0.9</uiIconScale>
+    <graphicData>
+      <texPath>Things/Buildings/Power/Abandoned3HSTBarrel/Abandoned3HSTBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.2</drawSize>
+      <shadowData>
+        <volume>(0.9, 0.5, 0.9)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <size>(1, 1)</size>
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>50</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedFabrication</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <PowerOutputFactor>0.10</PowerOutputFactor>
+        </statOffsets>
+        <maxSimultaneous>4</maxSimultaneous>
+        <maxDistance>8</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
