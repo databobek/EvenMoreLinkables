@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "g895GXbHpufnsqs4FqsMm9xlOYk/45oyxiqGCT1yCf5AVPuGip8CjsGnPIzL7xnjLXgRf5IfMRSSZpiMCCEzQA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source2\\EvenMoreLinkables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3901\\krafs.rimworld.ref.1.4.3901.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
