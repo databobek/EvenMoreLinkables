@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sh7+pRu/eSGk80AaPCy1ajmCprUfzSOj5AcMSbeW+wfMk9iYlb9flsf5VLce5zk18J6WxjJMhJKobHnCGNoVlA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Holden\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4053-beta\\krafs.rimworld.ref.1.5.4053-beta.nupkg.sha512",
+    "C:\\Users\\Holden\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
