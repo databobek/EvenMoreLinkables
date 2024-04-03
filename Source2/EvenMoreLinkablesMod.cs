@@ -104,6 +104,6 @@ namespace EvenMoreLinkables
     }
     public class CompQualityOffset : ThingComp
     {
-        public CompProperties_QualityOffset Props => base.props as CompProperties_QualityOffset;
+        public CompProperties_QualityOffset Props => props as CompProperties_QualityOffset;
     }
 }
