@@ -364,7 +364,6 @@
     </graphicData>
     <size>(1,1)</size>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <passability>Impassable</passability>
     <statBases>
       <WorkToBuild>25000</WorkToBuild>
       <Mass>125</Mass>

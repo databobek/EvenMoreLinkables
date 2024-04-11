@@ -543,7 +543,6 @@
     <rotatable>true</rotatable>
     <size>(1,1)</size>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <passability>Impassable</passability>
     <statBases>
       <WorkToBuild>1800</WorkToBuild>
       <Mass>50</Mass>
