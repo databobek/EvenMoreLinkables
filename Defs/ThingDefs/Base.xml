@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Abstract="True" Name="HobbesLink_Base" ParentName="BuildingBase">
     <altitudeLayer>Building</altitudeLayer>
@@ -15,6 +15,7 @@
       <Flammability>0.5</Flammability>
     </statBases>
     <building>
+      <paintable>true</paintable>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
     </building>
     <designationCategory>Misc</designationCategory>

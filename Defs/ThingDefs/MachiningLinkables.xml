@@ -210,6 +210,7 @@
     <researchPrerequisites>
       <li>AdvancedFabrication</li>
     </researchPrerequisites>
+    <rotatable>true</rotatable>
     <comps>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Facility">
@@ -365,6 +366,9 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
     <comps>
+      <!-- <li Class="EvenMoreLinkables.CompProperties_QualityOffset">
+        <qualityOffset>1</qualityOffset>
+      </li> -->
       <li Class="CompProperties_Facility">
         <statOffsets>
           <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
@@ -508,8 +512,15 @@
         <basePowerConsumption>25</basePowerConsumption>
       </li>
       <li MayRequire="vanillaexpanded.vfecore" Class="VanillaFurnitureEC.CompProperties_BinClean">
-        <timerInTicks>1000</timerInTicks>
-        <radius>15.9</radius>
+        <timerInTicks>750</timerInTicks>
+        <radius>25</radius>
+        <capacity>250</capacity>
+        <beautyPerFilthStored>
+          <points>
+            <li>0, 0</li>
+            <li>1, -5</li>
+          </points>
+        </beautyPerFilthStored>
       </li>
     </comps>
   </ThingDef>

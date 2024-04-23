@@ -1331,4 +1331,109 @@
     </match>
   </Operation>
 
+
+  <!-- Patches for def "VMEu_MetalSmelter" in "Expanded Materials - Metals" -->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Materials - Metals</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VMEu_MetalSmelter"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_AffectedByFacilities">
+          <linkableFacilities>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Incinerator</li>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_3DPrinter</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Lathe</li>
+            <li>HobbesLink_Spacer_Lathe</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Centrifuge</li>
+            <li>HobbesLink_LaserEngraver</li>
+            <li>HobbesLink_Incinerator</li>
+          </linkableFacilities>
+        </li>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Patches for def "VMEu_ElectricMetalSmelter" in "Expanded Materials - Metals" -->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Materials - Metals</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VMEu_ElectricMetalSmelter"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_AffectedByFacilities">
+          <linkableFacilities>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Incinerator</li>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_3DPrinter</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Lathe</li>
+            <li>HobbesLink_Spacer_Lathe</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Centrifuge</li>
+            <li>HobbesLink_LaserEngraver</li>
+            <li>HobbesLink_Incinerator</li>
+          </linkableFacilities>
+        </li>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Patches for def "VMEu_AdvancedSmelter" in "Expanded Materials - Metals" -->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Materials - Metals</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VMEu_AdvancedSmelter"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_AffectedByFacilities">
+          <linkableFacilities>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Incinerator</li>
+            <li>HobbesLink_CNCMachine</li>
+            <li>HobbesLink_3DPrinter</li>
+            <li>HobbesLink_RobotAssistant</li>
+            <li>HobbesLink_Lathe</li>
+            <li>HobbesLink_Spacer_Lathe</li>
+            <li>HobbesLink_Vice</li>
+            <li>HobbesLink_ConveyorBelt</li>
+            <li>HobbesLink_IndustrialOven</li>
+            <li>HobbesLink_Centrifuge</li>
+            <li>HobbesLink_LaserEngraver</li>
+            <li>HobbesLink_Incinerator</li>
+          </linkableFacilities>
+        </li>
+      </value>
+    </match>
+  </Operation>
+
 </Patch>
