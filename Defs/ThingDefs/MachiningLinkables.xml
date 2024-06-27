@@ -365,12 +365,8 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
     <comps>
-      <li Class="CompProperties_Facility">
-        <statOffsets>
-          <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
-        </statOffsets>
-        <maxSimultaneous>1</maxSimultaneous>
-        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      <li Class="EvenMoreLinkables.CompProperties_QualityOffset">
+        <qualityOffset>1</qualityOffset>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
