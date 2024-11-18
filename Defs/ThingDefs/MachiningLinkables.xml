@@ -346,7 +346,7 @@
   <ThingDef ParentName="HobbesLinkMachining_Base">
     <defName>HobbesLink_LaserEngraver</defName>
     <label>laser engraver</label>
-    <description>Increases work speed by 15% when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis machine employs a laser beam to delicately engrave or cut intricate designs onto an array of materials, including wood, metal, glass, and plastic, showcasing its versatility across various crafting endeavors.</description>
+    <description>Increases quality by 1 point when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis machine employs a laser beam to delicately engrave or cut intricate designs onto an array of materials, including wood, metal, glass, and plastic, showcasing its versatility across various crafting endeavors.</description>
     <graphicData>
       <texPath>Things/Buildings/Machining/8_LaserEngraver/LaserEngraver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -366,13 +366,10 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
     <comps>
-      <!-- <li Class="EvenMoreLinkables.CompProperties_QualityOffset">
+      <li Class="EvenMoreLinkables.CompProperties_QualityOffset">
         <qualityOffset>1</qualityOffset>
-      </li> -->
+      </li>
       <li Class="CompProperties_Facility">
-        <statOffsets>
-          <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
-        </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
       </li>

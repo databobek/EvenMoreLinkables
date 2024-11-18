@@ -21,7 +21,7 @@
     </statBases>
     <size>(2,1)</size>
     <costList>
-      <Steel>150</Steel>
+      <Steel>250</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
@@ -126,8 +126,8 @@
     </statBases>
     <size>(1,1)</size>
     <costList>
-      <Steel>250</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
       <li>Machining</li>
