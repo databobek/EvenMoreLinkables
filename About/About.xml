@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Even More Linkables</name>
+  <name>Even More Linkables Reupload</name>
   <authors>
-    <li>Hobbes, Bambaryła</li>
+    <li>Hobbes, Bambaryła, Thekiborg</li>
   </authors>
-  <packageId>hobbes.bamba.evenmorelinkables</packageId>
+  <packageId>hobbes.bamba.evenmorelinkables16</packageId>
   <description> </description>
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
-		</li>
-	</modDependencies>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
   <loadAfter>
     <li>meltup.advancedpowerplus</li>
     <li>ceteam.combatextended</li>
@@ -38,4 +39,7 @@
     <li>oskarpotocki.vfe.pirates</li>
     <li>daniledman.fastregen</li>
   </loadAfter>
+  <incompatibleWith>
+    <li>hobbes.bamba.evenmorelinkables</li>
+  </incompatibleWith>
 </ModMetaData>
