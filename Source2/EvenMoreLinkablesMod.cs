@@ -68,7 +68,7 @@ namespace EvenMoreLinkables
         }
     }
 
-    [HarmonyPatch(typeof(QualityUtility), "GenerateQualityCreatedByPawn", [typeof(Pawn), typeof(SkillDef)])]
+    [HarmonyPatch(typeof(QualityUtility), "GenerateQualityCreatedByPawn", [typeof(Pawn), typeof(SkillDef), typeof(bool)])]
     public static class QualityUtility_GenerateQualityCreatedByPawn_Patch
     {
         public static void Postfix(ref QualityCategory __result, Pawn pawn)
