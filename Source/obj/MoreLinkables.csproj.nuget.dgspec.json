@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj": {}
+    "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj": {
+    "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj",
+        "projectUniqueName": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj",
         "projectName": "MoreLinkablesAssembly",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj",
-        "packagesPath": "C:\\Users\\Holden\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\obj\\",
+        "projectPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\MoreLinkables.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\EvenMoreLinkables\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programas\\VisualStudioOtherShit\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Holden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,6 +34,11 @@
           "net472": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -40,17 +46,20 @@
           "dependencies": {
             "Krafs.Rimworld.Ref": {
               "target": "Package",
-              "version": "[1.5.4053-beta, )"
+              "version": "[1.6.4528, )"
             },
             "Lib.Harmony": {
               "target": "Package",
-              "version": "[2.3.3, )"
+              "version": "[2.3.6, )"
             }
           }
         }
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

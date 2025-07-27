@@ -1,3 +1,7 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Assemblies\EvenMoreLinkables.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Source2\obj\Debug\EvenMoreLinkables.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Source2\obj\Debug\EvenMoreLinkables.dll
+D:\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\1.6\Assemblies\EvenMoreLinkables.dll
+D:\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Source2\obj\Debug\EvenMoreLinkables.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Source2\obj\Debug\EvenMoreLinkables.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\EvenMoreLinkables\Source2\obj\Debug\EvenMoreLinkables.dll
