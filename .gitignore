@@ -18,21 +18,36 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-[Aa][Rr][Mm]64[Ee][Cc]/
-bld/
-[Oo]bj/
-[Oo]ut/
-[Ll]og/
-[Ll]ogs/
+[Ss]ource/[Dd]ebug/
+[Ss]ource2/[Dd]ebug/
+[Ss]ource/[Dd]ebugPublic/
+[Ss]ource2/[Dd]ebugPublic/
+[Ss]ource/[Rr]elease/
+[Ss]ource2/[Rr]elease/
+[Ss]ource/[Rr]eleases/
+[Ss]ource2/[Rr]eleases/
+[Ss]ource/x64/
+[Ss]ource2/x64/
+[Ss]ource/x86/
+[Ss]ource2/x86/
+[Ss]ource/[Ww][Ii][Nn]32/
+[Ss]ource2/[Ww][Ii][Nn]32/
+[Ss]ource/[Aa][Rr][Mm]/
+[Ss]ource2/[Aa][Rr][Mm]/
+[Ss]ource/[Aa][Rr][Mm]64/
+[Ss]ource2/[Aa][Rr][Mm]64/
+[Ss]ource/[Aa][Rr][Mm]64[Ee][Cc]/
+[Ss]ource2/[Aa][Rr][Mm]64[Ee][Cc]/
+[Ss]ource/bld/
+[Ss]ource2/bld/
+[Ss]ource/[Oo]bj/
+[Ss]ource2/[Oo]bj/
+[Ss]ource/[Oo]ut/
+[Ss]ource2/[Oo]ut/
+[Ss]ource/[Ll]og/
+[Ss]ource2/[Ll]og/
+[Ss]ource/[Ll]ogs/
+[Ss]ource2/[Ll]ogs/
 
 # Build results on 'Bin' directories
 **/[Bb]in/*
