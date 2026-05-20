@@ -28,5 +28,8 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
+    <graphicData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
   </ThingDef>
 </Defs>
