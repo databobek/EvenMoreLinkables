@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_WorkshopErgonomics.label>эргономика мастерской</HobbesLink_WorkshopErgonomics.label>
+  <HobbesLink_WorkshopErgonomics.description>Стандартизированные схемы рабочих мест, более безопасные крепления и ориентированная на пропускную способность организация процессов для подключаемого мастерского оборудования.</HobbesLink_WorkshopErgonomics.description>
+
+  <HobbesLink_PrecisionMachining.label>сети точной обработки</HobbesLink_PrecisionMachining.label>
+  <HobbesLink_PrecisionMachining.description>Координирует точные инструменты, модули стерилизации и блоки очистки процессов вокруг центральных верстаков для надежного прироста качества и скорости.</HobbesLink_PrecisionMachining.description>
+
+  <HobbesLink_AutomatedFabricationLinks.label>автоматизированные производственные связи</HobbesLink_AutomatedFabricationLinks.label>
+  <HobbesLink_AutomatedFabricationLinks.description>Интегрирует роботизированных помощников и продвинутую производственную периферию в связанные производственные ячейки.</HobbesLink_AutomatedFabricationLinks.description>
+
+  <HobbesLink_GridConditioning.label>кондиционирование сети</HobbesLink_GridConditioning.label>
+  <HobbesLink_GridConditioning.description>Внедряет более умное регулирующее оборудование для стабилизации и улучшения подачи энергии со стороны генератора.</HobbesLink_GridConditioning.description>
+
+  <HobbesLink_ThermalPowerManagement.label>термоуправление энергетикой</HobbesLink_ThermalPowerManagement.label>
+  <HobbesLink_ThermalPowerManagement.description>Применяет продвинутую тепловую балансировку и строгий режим охлаждения к инфраструктуре генерации энергии.</HobbesLink_ThermalPowerManagement.description>
+
+  <HobbesLink_SpacerPowerCoupling.label>космическое силовое сопряжение</HobbesLink_SpacerPowerCoupling.label>
+  <HobbesLink_SpacerPowerCoupling.description>Открывает высокоэнергетические системы сопряжения космического класса для усиления генераторов ценой значительных затрат материалов и инфраструктуры.</HobbesLink_SpacerPowerCoupling.description>
+
+  <HobbesLink_LabUtilities.label>лабораторные утилиты</HobbesLink_LabUtilities.label>
+  <HobbesLink_LabUtilities.description>Вводит связанные вспомогательные приборы для рутинной подготовки анализов и поддерживающих рабочих процессов.</HobbesLink_LabUtilities.description>
+
+  <HobbesLink_LabElectronics.label>интеграция лабораторной электроники</HobbesLink_LabElectronics.label>
+  <HobbesLink_LabElectronics.description>Координирует цифровую измерительную аппаратуру и системы данных между связанными исследовательскими столами.</HobbesLink_LabElectronics.description>
+
+  <HobbesLink_AdvancedResearchFacilities.label>продвинутые исследовательские комплексы</HobbesLink_AdvancedResearchFacilities.label>
+  <HobbesLink_AdvancedResearchFacilities.description>Открывает более крупную, высокопроизводительную связанную лабораторную инфраструктуру для научных программ поздних этапов.</HobbesLink_AdvancedResearchFacilities.description>
+</LanguageData>

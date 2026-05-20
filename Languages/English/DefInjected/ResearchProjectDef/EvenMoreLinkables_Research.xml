@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_WorkshopErgonomics.label>workshop ergonomics</HobbesLink_WorkshopErgonomics.label>
+  <HobbesLink_WorkshopErgonomics.description>Standardized workstation layouts, safer handling fixtures, and throughput-focused process design for linked workshop tooling.</HobbesLink_WorkshopErgonomics.description>
+
+  <HobbesLink_PrecisionMachining.label>precision machining networks</HobbesLink_PrecisionMachining.label>
+  <HobbesLink_PrecisionMachining.description>Coordinates precision tools, sterilization modules, and process cleanup units around central benches for reliable quality and speed gains.</HobbesLink_PrecisionMachining.description>
+
+  <HobbesLink_AutomatedFabricationLinks.label>automated fabrication links</HobbesLink_AutomatedFabricationLinks.label>
+  <HobbesLink_AutomatedFabricationLinks.description>Integrates robotic assistants and advanced fabrication peripherals into linked production cells.</HobbesLink_AutomatedFabricationLinks.description>
+
+  <HobbesLink_GridConditioning.label>grid conditioning</HobbesLink_GridConditioning.label>
+  <HobbesLink_GridConditioning.description>Introduces smarter regulation hardware to stabilize and improve generator-side power delivery.</HobbesLink_GridConditioning.description>
+
+  <HobbesLink_ThermalPowerManagement.label>thermal power management</HobbesLink_ThermalPowerManagement.label>
+  <HobbesLink_ThermalPowerManagement.description>Applies advanced thermal balancing and cooling discipline to power generation infrastructure.</HobbesLink_ThermalPowerManagement.description>
+
+  <HobbesLink_SpacerPowerCoupling.label>spacer power coupling</HobbesLink_SpacerPowerCoupling.label>
+  <HobbesLink_SpacerPowerCoupling.description>Enables high-energy spacer-grade coupling systems for generator amplification at significant material and infrastructure cost.</HobbesLink_SpacerPowerCoupling.description>
+
+  <HobbesLink_LabUtilities.label>laboratory utilities</HobbesLink_LabUtilities.label>
+  <HobbesLink_LabUtilities.description>Establishes linked utility instruments for routine assay preparation and support workflows.</HobbesLink_LabUtilities.description>
+
+  <HobbesLink_LabElectronics.label>lab electronics integration</HobbesLink_LabElectronics.label>
+  <HobbesLink_LabElectronics.description>Coordinates digital instrumentation and data systems across linked research benches.</HobbesLink_LabElectronics.description>
+
+  <HobbesLink_AdvancedResearchFacilities.label>advanced research facilities</HobbesLink_AdvancedResearchFacilities.label>
+  <HobbesLink_AdvancedResearchFacilities.description>Unlocks larger, high-throughput linked laboratory infrastructure for late-stage scientific programs.</HobbesLink_AdvancedResearchFacilities.description>
+</LanguageData>

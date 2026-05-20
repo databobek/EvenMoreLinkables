@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PowerOutputFactor.label>wspolczynnik mocy wyjsciowej</PowerOutputFactor.label>
+  <PowerOutputFactor.description>Moc wyjsciowa jest mnozona przez te wartosc.</PowerOutputFactor.description>
+</LanguageData>

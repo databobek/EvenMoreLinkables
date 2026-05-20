@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_CNCMachine.label>maszyna CNC</HobbesLink_CNCMachine.label>
+  <HobbesLink_CNCMachine.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 35%, gdy stoi bezposrednio obok. Limit 1 na stol.\n\nTa nowoczesna maszyna CNC (komputerowe sterowanie numeryczne) precyzyjnie prowadzi narzedzia i elementy, wytwarzajac dokladne komponenty do twoich projektow.</HobbesLink_CNCMachine.description>
+
+  <HobbesLink_3DPrinter.label>drukarka 3D</HobbesLink_3DPrinter.label>
+  <HobbesLink_3DPrinter.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 30%, gdy stoi bezposrednio obok. Limit 2 na stol.\n\nWykorzystujac model cyfrowy do budowy fizycznego obiektu warstwa po warstwie, ta drukarka 3D przyspiesza produkcje i oszczedza cenny czas.</HobbesLink_3DPrinter.description>
+
+  <HobbesLink_RobotAssistant.label>asystent robotyczny</HobbesLink_RobotAssistant.label>
+  <HobbesLink_RobotAssistant.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 65%, gdy stoi bezposrednio obok. Limit 1 na stol.\n\nTen robot klasy przemyslowej, zaprojektowany do montazu, spawania, malowania i pakowania, daje znaczna premie. W trybie "Boost" dziala jak standardowy element laczony, a tryb alternatywny okresowo zmniejsza pozostala prace przy zadaniach wokol podlaczonego stolu.</HobbesLink_RobotAssistant.description>
+
+  <HobbesLink_Lathe.label>tokarka</HobbesLink_Lathe.label>
+  <HobbesLink_Lathe.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 22%. Limit 1 na stol.\n\nTa tokarka, prawdziwy towarzysz warsztatu, z latwoscia obraca obrabiane elementy i sprawnie wykonuje toczenie, planowanie, wiercenie, radelekowanie oraz gwintowanie.</HobbesLink_Lathe.description>
+
+  <HobbesLink_Spacer_Lathe.label>tokarka kosmiczna</HobbesLink_Spacer_Lathe.label>
+  <HobbesLink_Spacer_Lathe.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 40%. Limit 1 na stol.\n\nLaczac najnowsza technologie klasy kosmicznej, ta tokarka podnosi precyzje i wydajnosc, a dzieki latwemu laczeniu z roznymi stanowiskami wyraznie zwieksza produktywnosc.</HobbesLink_Spacer_Lathe.description>
+
+  <HobbesLink_Vice.label>imadlo</HobbesLink_Vice.label>
+  <HobbesLink_Vice.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 4%. Limit 2 na stol.\n\nZaprojektowane jako mechaniczna kotwica, to urzadzenie zapewnia pewny chwyt przedmiotow podczas pracy i wyraznie zwieksza tempo dzieki niezawodnosci.</HobbesLink_Vice.description>
+
+  <HobbesLink_Autoclave.label>autoklaw</HobbesLink_Autoclave.label>
+  <HobbesLink_Autoclave.description>Zwieksza szybkosc polaczonych badan o 7%. Limit 2 na stol.\n\nWykorzystujac silne cisnienie pary do sterylizacji, ten autoklaw przyspiesza badania przez usuwanie bakterii, wirusow i mikroorganizmow, utrzymujac higieniczne warunki sprzyjajace szybkim postepom naukowym.</HobbesLink_Autoclave.description>
+
+  <HobbesLink_Centrifuge.label>wirowka</HobbesLink_Centrifuge.label>
+  <HobbesLink_Centrifuge.description>Zwieksza szybkosc polaczonych badan o 10% oraz polaczona szybkosc pracy o 3%. Limit 1 na stol.\n\nDzieki sile odsrodkowej do precyzyjnego rozdzielania czastek i cieczy to urzadzenie usprawnia przeplyw pracy i zapewnia wyzsza wydajnosc w wielu procesach.</HobbesLink_Centrifuge.description>
+
+  <HobbesLink_LaserEngraver.label>grawer laserowy</HobbesLink_LaserEngraver.label>
+  <HobbesLink_LaserEngraver.description>Zwieksza jakosc produkcji polaczonej o +1, gdy stoi bezposrednio obok stolu roboczego. Limit 1 na stol.\n\nTa maszyna wykorzystuje promien lasera do delikatnego grawerowania i wycinania zlozonych wzorow na roznych materialach, takich jak drewno, metal, szklo i plastik.</HobbesLink_LaserEngraver.description>
+
+  <HobbesLink_IndustrialOven.label>piec przemyslowy</HobbesLink_IndustrialOven.label>
+  <HobbesLink_IndustrialOven.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 8%, gdy stoi bezposrednio obok. Limit 1 na stol.\n\nNastawiony na wysoka produktywnosc, ten piec latwo laczy sie z roznymi stanowiskami przetwarzania i podnosi wydajnosc dzieki uniwersalnej kompatybilnosci.</HobbesLink_IndustrialOven.description>
+
+  <HobbesLink_ConveyorBelt.label>tasma transportowa</HobbesLink_ConveyorBelt.label>
+  <HobbesLink_ConveyorBelt.description>Zwieksza szybkosc pracy polaczonego stolu roboczego o 10%, gdy stoi bezposrednio obok. Limit 1 na stol.\n\nZaprojektowana do sprawnej produkcji, ta tasma bezproblemowo laczy sie z roznymi stolami obrobki, przyspiesza prace i wspiera dynamiczny przeplyw zadan.</HobbesLink_ConveyorBelt.description>
+
+  <HobbesLink_Incinerator.label>spalarnia</HobbesLink_Incinerator.label>
+  <HobbesLink_Incinerator.description>Zwieksza polaczona szybkosc pracy o 10% i polaczona szybkosc badan o 4%. Limit 1 na stol.\n\nTo urzadzenie wydajnie spala odpady w wysokiej temperaturze, zmniejszajac objetosc odpadow stalych i zamieniajac je w popiol, spaliny oraz cieplo. Dodatkowo pomaga utrzymac czyste i zdezynfekowane otoczenie.</HobbesLink_Incinerator.description>
+
+  <HobbesLink_CoolingModule.label>modul chlodzenia</HobbesLink_CoolingModule.label>
+  <HobbesLink_CoolingModule.description>Zwieksza moc wyjsciowa o 25%. Limit 2 na generator.\n\nTen modul chlodzenia elektrowni skutecznie schladza goraca wode lub pare, zapewniajac kondensacje do ponownego uzycia. Sprawnie odprowadza cieplo odpadowe i utrzymuje optymalna temperature pracy.</HobbesLink_CoolingModule.description>
+
+  <HobbesLink_Alternator.label>alternator</HobbesLink_Alternator.label>
+  <HobbesLink_Alternator.description>Zwieksza moc wyjsciowa o 14%. Limit 2 na generator.\n\nTen alternator to dynamiczny generator elektryczny, ktory plynnie zamienia energie mechaniczna na niezbedny prad przemienny (AC) dla twoich systemow.</HobbesLink_Alternator.description>
+
+  <HobbesLink_Pylon.label>pylon energetyczny</HobbesLink_Pylon.label>
+  <HobbesLink_Pylon.description>Zwieksza moc wyjsciowa o 3%. Limit 12 na generator.\n\nTen pylon energetyczny, kluczowe ogniwo, poprawia sprawnosc podlaczonych zrodel energii i optymalizuje przeplyw mocy dla lepszej wydajnosci calosci.</HobbesLink_Pylon.description>
+
+  <HobbesLink_BreakerBox.label>skrzynka bezpiecznikowa</HobbesLink_BreakerBox.label>
+  <HobbesLink_BreakerBox.description>Zwieksza moc wyjsciowa o 4%, gdy stoi bezposrednio obok generatora. Limit 1 na generator.\n\nTa skrzynka bezpiecznikowa, ustawiona strategicznie przy generatorze, wyraznie zwieksza jego sprawnosc. Jako kluczowy element optymalizuje dystrybucje mocy w twojej sieci.</HobbesLink_BreakerBox.description>
+
+  <HobbesLink_CoolingTower.label>wieza chlodnicza</HobbesLink_CoolingTower.label>
+  <HobbesLink_CoolingTower.description>Zwieksza moc wyjsciowa o 35%, gdy stoi bezposrednio obok generatora. Limit 2 na generator.\n\nTa wieza chlodnicza mocno podnosi wydajnosc generatorow. Dzieki skutecznej regulacji temperatury zapewnia optymalna prace i jest niezastapionym elementem infrastruktury energetycznej.</HobbesLink_CoolingTower.description>
+
+  <HobbesLink_Transformer.label>transformator</HobbesLink_Transformer.label>
+  <HobbesLink_Transformer.description>Zwieksza moc wyjsciowa o 15%. Limit 2 na generator.\n\nTen transformator przenosi energie miedzy obwodami przez indukcje elektromagnetyczna. Sprawna regulacja napiecia umozliwia wydajne przesylanie i rozdzielanie energii na duze odleglosci.</HobbesLink_Transformer.description>
+
+  <HobbesLink_Spacer_LiquidPower.label>kosmiczny wzmacniacz mocy cieczowej</HobbesLink_Spacer_LiquidPower.label>
+  <HobbesLink_Spacer_LiquidPower.description>Zwieksza moc wyjsciowa o 32%, gdy stoi bezposrednio obok generatora. Limit 2 na generator.\n\nTen kosmiczny wzmacniacz mocy cieczowej wykorzystuje elektrycznie ujemne ciecze, by podniesc wydajnosc generatora. Jako nowoczesne urzadzenie optymalizuje moc i zapewnia dynamiczne wzmocnienie systemu.</HobbesLink_Spacer_LiquidPower.description>
+
+  <HobbesLink_Spacer_Transformer.label>kosmiczny transformator</HobbesLink_Spacer_Transformer.label>
+  <HobbesLink_Spacer_Transformer.description>Zwieksza moc wyjsciowa o 60%, gdy stoi bezposrednio obok generatora. Limit 1 na generator.\n\nTen kosmiczny transformator przenosi energie miedzy obwodami kwantowymi przez indukcje elektrokwantowa. Dynamicznie reguluje napiecie, ulatwiajac wydajna transmisje i dystrybucje energii na duze odleglosci.</HobbesLink_Spacer_Transformer.description>
+
+  <HobbesLink_Spacer_CoolantPump.label>kosmiczna pompa chlodzaca</HobbesLink_Spacer_CoolantPump.label>
+  <HobbesLink_Spacer_CoolantPump.description>Zwieksza moc wyjsciowa o 30%, gdy stoi bezposrednio obok generatora. Limit 2 na generator.\n\nTa kosmiczna pompa chlodzaca to przelom dla generatorow. Podnosi ich skutecznosc przez wydajne zarzadzanie temperatura. To kluczowy komponent zapewniajacy wysoka wydajnosc i dluga zywotnosc.</HobbesLink_Spacer_CoolantPump.description>
+
+  <HobbesLink_Spacer_Console.label>kosmiczna konsola mocy</HobbesLink_Spacer_Console.label>
+  <HobbesLink_Spacer_Console.description>Zwieksza moc wyjsciowa o 18%, gdy stoi bezposrednio obok generatora. Limit 1 na generator.\n\nTa kosmiczna konsola generatora, scisle polaczona z ukladem, pozwala na zaawansowane programowanie optymalizujace sprawnosc generatora. Oferuje precyzyjna kontrole i odblokowuje szczytowa wydajnosc.</HobbesLink_Spacer_Console.description>
+
+  <HobbesLink_Spacer_Condensator.label>kosmiczny kondensator</HobbesLink_Spacer_Condensator.label>
+  <HobbesLink_Spacer_Condensator.description>Zwieksza moc wyjsciowa o 8%. Limit 3 na generator.\n\nTen inteligentny modul kondensatora kosmicznego wykorzystuje statyczna rekurencje w generatorach elektrycznych. Jego inteligentna konstrukcja znaczaco poprawia ich skutecznosc i stanowi kluczowy element zwiekszajacy wydajnosc.</HobbesLink_Spacer_Condensator.description>
+
+  <HobbesLink_PersonalComputer.label>komputer osobisty</HobbesLink_PersonalComputer.label>
+  <HobbesLink_PersonalComputer.description>Zwieksza szybkosc badan o 10%, gdy stoi bezposrednio obok stolu badawczego. Limit 3 na stol.\n\nTen komputer osobisty (PC) wnosi wszechstronnosc do kolonii dzieki konstrukcji ukierunkowanej na indywidualna prace. Wyposazony w moc CPU, pamiec i magazyn danych, stanowi niezbedne narzedzie codziennego uzytku.</HobbesLink_PersonalComputer.description>
+
+  <HobbesLink_Still.label>alembik</HobbesLink_Still.label>
+  <HobbesLink_Still.description>Zwieksza szybkosc badan o 4% i szybkosc pracy o 3%. Limit 1 na stol.\n\nTen alembik do rozpuszczalnikow to kluczowy pomocnik laboratorium, sprawnie rozdzielajacy substancje. Delikatnie podgrzewa, wychwytuje opary przez kondensacje i dostarcza czysty produkt do oddzielnego pojemnika.</HobbesLink_Still.description>
+
+  <HobbesLink_Rotovape.label>wyparka rotacyjna</HobbesLink_Rotovape.label>
+  <HobbesLink_Rotovape.description>Zwieksza szybkosc badan o 14% i szybkosc pracy o 6%. Limit 1 na stol.\n\nTa wyparka rotacyjna to cichy alchemik laboratorium, specjalista od oczyszczania cieczy. Umiejetnie laczy cieplo i rotacje, odparowuje zawartosc kolby i skrapla czyste opary do osobnego odbieralnika.</HobbesLink_Rotovape.description>
+
+  <HobbesLink_TabletopCentrifuge.label>wirowka stolowa</HobbesLink_TabletopCentrifuge.label>
+  <HobbesLink_TabletopCentrifuge.description>Zwieksza szybkosc badan o 4% i szybkosc pracy o 3%. Limit 1 na stol.\n\nTa wirowka stolowa zostala zaprojektowana, by zwiekszac przepustowosc. Dzieki usprawnionej konstrukcji daje wyrazny wzrost produktywnosci i plynna, szybka prace.</HobbesLink_TabletopCentrifuge.description>
+
+  <HobbesLink_TabletopStove.label>kuchenka stolowa</HobbesLink_TabletopStove.label>
+  <HobbesLink_TabletopStove.description>Zwieksza szybkosc badan o 4% i szybkosc pracy o 3%. Limit 1 na stol.\n\nTa badawcza kuchenka stolowa jest gotowa do eksperymentow i zwieksza wydajnosc badan. Dostosowana do stanowisk naukowych, wnosi znaczna poprawe tempa przetwarzania.</HobbesLink_TabletopStove.description>
+
+  <HobbesLink_TabletopLabMachine.label>stolowa maszyna laboratoryjna</HobbesLink_TabletopLabMachine.label>
+  <HobbesLink_TabletopLabMachine.description>Zwieksza szybkosc badan o 4%. Limit 1 na stol.\n\nTa stolowa maszyna laboratoryjna, wszechstronne urzadzenie, odpowiada na rozne potrzeby badawcze. Umozliwia podlaczenia do roznych konfiguracji i usprawnia eksperymenty dzieki innowacyjnemu podejsciu.</HobbesLink_TabletopLabMachine.description>
+
+  <HobbesLink_TabletopOscilloscope.label>oscyloskop stolowy</HobbesLink_TabletopOscilloscope.label>
+  <HobbesLink_TabletopOscilloscope.description>Zwieksza szybkosc badan o 4%. Limit 1 na stol.\n\nTen oscyloskop stolowy, wszechstronny towarzysz laboratorium, swietnie sprawdza sie w pomiarach elektronicznych. Nie tylko podnosi wydajnosc, ale tez zwieksza precyzje eksperymentow.</HobbesLink_TabletopOscilloscope.description>
+
+  <HobbesLink_TabletopLabScanner.label>stolowy skaner laboratoryjny</HobbesLink_TabletopLabScanner.label>
+  <HobbesLink_TabletopLabScanner.description>Zwieksza szybkosc badan o 4%. Limit 1 na stol.\n\nTen stolowy skaner laboratoryjny, wszechstronne narzedzie badawcze, sprawdza sie w roznorodnych analizach. Znacznie przyspiesza badania, stajac sie niezastapionym elementem laboratorium.</HobbesLink_TabletopLabScanner.description>
+
+  <HobbesLink_TabletopLabTubeRack.label>stojak na probowki stolowy</HobbesLink_TabletopLabTubeRack.label>
+  <HobbesLink_TabletopLabTubeRack.description>Zwieksza szybkosc badan o 4% i szybkosc pracy o 2%. Limit 1 na stol.\n\nTen stolowy stojak na probowki, niezastapiony organizator, usprawnia przebieg eksperymentow. Dzieki wydajnemu przechowywaniu i zoptymalizowanemu przeplywowi pracy poprawia efektywnosc calego laboratorium.</HobbesLink_TabletopLabTubeRack.description>
+
+  <HobbesLink_TabletopLabMicroscope.label>stolowy mikroskop laboratoryjny</HobbesLink_TabletopLabMicroscope.label>
+  <HobbesLink_TabletopLabMicroscope.description>Zwieksza szybkosc badan o 10%. Limit 1 na stol.\n\nTen stolowy mikroskop laboratoryjny, niezbedny do dokladnych analiz, zostal stworzony z mysla o doskonalosci badawczej. Daje wyrazny wzrost szybkosci badan, umozliwiajac szybka i szczegolowa eksploracje.</HobbesLink_TabletopLabMicroscope.description>
+
+  <HobbesLink_BotanicalEnclosure.label>komora botaniczna</HobbesLink_BotanicalEnclosure.label>
+  <HobbesLink_BotanicalEnclosure.description>Zwieksza szybkosc badan o 18%, gdy stoi bezposrednio obok stolu badawczego. Limit 1 na stol.\n\nTa komora botaniczna, wyspecjalizowane urzadzenie laboratoryjne, zostala zaprojektowana do precyzyjnej uprawy roslin. Dostosowana do kontrolowanych warunkow, ulatwia badania roslin i znaczaco zwieksza tempo badan.</HobbesLink_BotanicalEnclosure.description>
+
+  <HobbesLink_ServerRack.label>szafa serwerowa</HobbesLink_ServerRack.label>
+  <HobbesLink_ServerRack.description>Zwieksza szybkosc badan o 10%. Limit 3 na stol.\n\nTa szafa serwerowa, przygotowana do bezproblemowej integracji z polaczonymi stanowiskami badawczymi, zapewnia wydajna obsluge danych i wyraznie podnosi tempo badan.</HobbesLink_ServerRack.description>
+</LanguageData>

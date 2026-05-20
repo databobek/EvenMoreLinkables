@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "MeleeWeapon_Knife"]</xpath>
+		<value>
+			<li Class="EvenMoreLinkables.RequiredLinkablesToCraft">
+				<requiredLinkables>
+					<li>ToolCabinet</li>
+				</requiredLinkables>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>
+
 <!-- 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="ToolCabinet"]/comps</xpath>
@@ -8,17 +23,4 @@
 			<qualityOffset>1</qualityOffset>
 		</li>
     </value>
-  </Operation>
-  
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName = "MeleeWeapon_Knife"]</xpath>
-		<value>
-			<li Class = "EvenMoreLinkables.RequiredLinkablesToCraft">
-				<requiredLinkables>
-					<li>ToolCabinet</li>
-				</requiredLinkables>
-			</li>
-		</value>
-	</Operation> -->
-
-</Patch>
+  </Operation> -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_WorkshopErgonomics.label>ergonomia warsztatu</HobbesLink_WorkshopErgonomics.label>
+  <HobbesLink_WorkshopErgonomics.description>Standaryzowane uklady stanowisk, bezpieczniejsze uchwyty i projektowanie procesow ukierunkowane na przepustowosc dla polaczonych narzedzi warsztatowych.</HobbesLink_WorkshopErgonomics.description>
+
+  <HobbesLink_PrecisionMachining.label>siec precyzyjnej obrobki</HobbesLink_PrecisionMachining.label>
+  <HobbesLink_PrecisionMachining.description>Koordynuje precyzyjne narzedzia, moduly sterylizacji i jednostki czyszczenia procesow wokol centralnych stolow, zapewniajac pewny wzrost jakosci i szybkosci.</HobbesLink_PrecisionMachining.description>
+
+  <HobbesLink_AutomatedFabricationLinks.label>automatyczne lacza produkcyjne</HobbesLink_AutomatedFabricationLinks.label>
+  <HobbesLink_AutomatedFabricationLinks.description>Integruje asystentow robotycznych i zaawansowane urzadzenia produkcyjne z polaczonymi komorkami wytworczymi.</HobbesLink_AutomatedFabricationLinks.description>
+
+  <HobbesLink_GridConditioning.label>kondycjonowanie sieci</HobbesLink_GridConditioning.label>
+  <HobbesLink_GridConditioning.description>Wprowadza inteligentniejszy osprzet regulacyjny, aby ustabilizowac i poprawic dostarczanie mocy po stronie generatora.</HobbesLink_GridConditioning.description>
+
+  <HobbesLink_ThermalPowerManagement.label>termiczne zarzadzanie energia</HobbesLink_ThermalPowerManagement.label>
+  <HobbesLink_ThermalPowerManagement.description>Wprowadza zaawansowane rownowazenie cieplne i rygor chlodzenia do infrastruktury wytwarzania energii.</HobbesLink_ThermalPowerManagement.description>
+
+  <HobbesLink_SpacerPowerCoupling.label>kosmiczne sprzezenie mocy</HobbesLink_SpacerPowerCoupling.label>
+  <HobbesLink_SpacerPowerCoupling.description>Pozwala stosowac wysokenergetyczne uklady sprzegania klasy kosmicznej do wzmacniania generatorow, kosztem znacznych nakladow materialowych i infrastrukturalnych.</HobbesLink_SpacerPowerCoupling.description>
+
+  <HobbesLink_LabUtilities.label>narzedzia laboratoryjne</HobbesLink_LabUtilities.label>
+  <HobbesLink_LabUtilities.description>Wprowadza polaczone instrumenty pomocnicze do rutynowego przygotowania analiz i obslugi przeplywu pracy.</HobbesLink_LabUtilities.description>
+
+  <HobbesLink_LabElectronics.label>integracja elektroniki laboratoryjnej</HobbesLink_LabElectronics.label>
+  <HobbesLink_LabElectronics.description>Koordynuje cyfrowa aparature i systemy danych miedzy polaczonymi stolami badawczymi.</HobbesLink_LabElectronics.description>
+
+  <HobbesLink_AdvancedResearchFacilities.label>zaawansowane obiekty badawcze</HobbesLink_AdvancedResearchFacilities.label>
+  <HobbesLink_AdvancedResearchFacilities.description>Odblokowuje wieksza, wysokoprzepustowa polaczona infrastrukture laboratoryjna dla poznych etapow programow naukowych.</HobbesLink_AdvancedResearchFacilities.description>
+</LanguageData>

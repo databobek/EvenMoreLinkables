@@ -6,7 +6,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_PersonalComputer</defName>
     <label>personal computer</label>
-    <description>Increases research speed by 15% when placed directly adjacent to a workbench. Limit 4 per workbench.\n\nThis personal computer (PC) brings versatility to your colony with its individual-focused design. Packed with CPU power, ample memory, and storage, this essential tool caters to personal needs.</description>
+    <description>Improves research speed by 10% when placed directly adjacent to a workbench. Limit 3 per workbench.\n\nThis personal computer (PC) brings versatility to your colony with its individual-focused design. Packed with CPU power, ample memory, and storage, this essential tool caters to personal needs.</description>
     <uiIconScale>2.0</uiIconScale>
     <graphicData>
       <texPath>Things/Buildings/Research/10_PC/PC</texPath>
@@ -19,20 +19,19 @@
     </statBases>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>90</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabElectronics</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.10</ResearchSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>4</maxSimultaneous>
+        <maxSimultaneous>3</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
       </li>
       <li Class="CompProperties_Power">
@@ -46,7 +45,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_Still</defName>
     <label>still</label>
-    <description>Increases research and work speed by 5%. Limit 1 per workbench.\n\nThis solvent still is a crucial lab companion, skillfully separating solvents. It delicately heats, captures vapors through condensation, and delivers pristine solvents into a designated container, ensuring precision in your experiments.</description>
+    <description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis solvent still is a crucial lab companion, skillfully separating solvents. It delicately heats, captures vapors through condensation, and delivers pristine solvents into a designated container, ensuring precision in your experiments.</description>
     <uiIconScale>1.75</uiIconScale>
     <uiIconPath>UI/Still</uiIconPath>
     <graphicData>
@@ -60,12 +59,11 @@
     </statBases>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabUtilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Power">
@@ -75,8 +73,8 @@
       </li>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
-          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.03</WorkTableWorkSpeedFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
@@ -87,7 +85,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_Rotovape</defName>
     <label>rotary evaporator</label>
-    <description>Increases research speed by 20% and work speed by 10%. Limit 1 per workbench.\n\nThis rotary evaporator is a lab's silent alchemist, adeptly purifying liquids. It skillfully combines heat and rotation, evaporating contents in a flask, and condensing pure vapors into a separate collector flask for refined experiments.</description>
+    <description>Improves research speed by 14% and work speed by 6%. Limit 1 per workbench.\n\nThis rotary evaporator is a lab's silent alchemist, adeptly purifying liquids. It skillfully combines heat and rotation, evaporating contents in a flask, and condensing pure vapors into a separate collector flask for refined experiments.</description>
     <uiIconPath>UI/Rotovap</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -101,13 +99,13 @@
     </statBases>
     <size>(2,2)</size>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>140</Steel>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_AdvancedResearchFacilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Power">
@@ -117,8 +115,8 @@
       </li>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.20</ResearchSpeedFactor>
-          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+          <ResearchSpeedFactor>0.14</ResearchSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.06</WorkTableWorkSpeedFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
@@ -129,7 +127,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopCentrifuge</defName>
     <label>tabletop centrifuge</label>
-    <description>Increases research and work speed by 5%. Limit 2 per workbench.\n\nThis tabletop centrifuge is your efficiency ally, designed to amplify throughput. With its streamlined design, it delivers a significant boost in productivity for your tasks, ensuring a seamless and swift operation.</description>
+    <description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis tabletop centrifuge is your efficiency ally, designed to amplify throughput. With its streamlined design, it delivers a significant boost in productivity for your tasks, ensuring a seamless and swift operation.</description>
     <uiIconPath>UI/Prop_LabCentrifudge</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -152,21 +150,20 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
+      <Steel>70</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabUtilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
-          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.03</WorkTableWorkSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -180,7 +177,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopStove</defName>
     <label>tabletop stove</label>
-    <description>Increases research and work speed by 5%. Limit 2 per workbench.\n\nThis research tabletop stove stands ready for experimentation, enhancing efficiency in your studies. Tailored for research setups, it brings a significant boost in processing efficiency, contributing to the precision and effectiveness of your scientific endeavors.</description>
+    <description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis research tabletop stove stands ready for experimentation, enhancing efficiency in your studies. Tailored for research setups, it brings a significant boost in processing efficiency, contributing to the precision and effectiveness of your scientific endeavors.</description>
     <uiIconPath>UI/Prop_LabHeater</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -203,21 +200,20 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
+      <Steel>70</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabUtilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
-          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.03</WorkTableWorkSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -231,7 +227,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopLabMachine</defName>
     <label>tabletop lab machine</label>
-    <description>Increases research speed by 5%. Limit 2 per workbench.\n\nThis tabletop lab machine, a versatile marvel, caters to diverse research needs. It uniquely accommodates connections to different setups, streamlining your experiments with an innovative approach.</description>
+    <description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop lab machine, a versatile marvel, caters to diverse research needs. It uniquely accommodates connections to different setups, streamlining your experiments with an innovative approach.</description>
     <uiIconPath>UI/Prop_LabMachine</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -254,20 +250,19 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabElectronics</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -281,7 +276,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopOscilloscope</defName>
     <label>tabletop oscilloscope</label>
-    <description>Increases research speed by 5%. Limit 2 per workbench.\n\nThis tabletop oscilloscope, a versatile lab companion, excels in electronic measurements. Tailored for diverse test setups, it not only enhances efficiency but also brings a heightened level of precision to your experiments, making it an invaluable asset in your research arsenal.</description>
+    <description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop oscilloscope, a versatile lab companion, excels in electronic measurements. Tailored for diverse test setups, it not only enhances efficiency but also brings a heightened level of precision to your experiments, making it an invaluable asset in your research arsenal.</description>
     <uiIconPath>UI/Prop_LabOscilloscope</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -304,20 +299,19 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabElectronics</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -331,7 +325,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopLabScanner</defName>
     <label>tabletop lab scanner</label>
-    <description>Increases research speed by 5%. Limit 2 per workbench.\n\nThis tabletop lab scanner, a versatile research tool, excels in various analyses. Offering a significant boost in research speed, it becomes an indispensable asset, enhancing the pace and efficiency of your experiments.</description>
+    <description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop lab scanner, a versatile research tool, excels in various analyses. Offering a significant boost in research speed, it becomes an indispensable asset, enhancing the pace and efficiency of your experiments.</description>
     <uiIconPath>UI/Prop_LabScanner</uiIconPath>
     <uiIconScale>1.35</uiIconScale>
     <graphicData>
@@ -354,20 +348,19 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabElectronics</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -381,7 +374,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopLabTubeRack</defName>
     <label>tabletop lab tube rack</label>
-    <description>Increases research and work speed by 5%. Limit 2 per workbench.\n\nThis tabletop lab tube rack, an indispensable organizational ally, ensures seamless experiments. With efficient storage and optimized workflows, it becomes a cornerstone in your laboratory, enhancing the overall efficiency of your experiments.</description>
+    <description>Improves research speed by 4% and work speed by 2%. Limit 1 per workbench.\n\nThis tabletop lab tube rack, an indispensable organizational ally, ensures seamless experiments. With efficient storage and optimized workflows, it becomes a cornerstone in your laboratory, enhancing the overall efficiency of your experiments.</description>
     <uiIconPath>UI/Prop_TubeRack</uiIconPath>
     <uiIconScale>1.85</uiIconScale>
     <graphicData>
@@ -404,21 +397,19 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
+      <Steel>60</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabUtilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.05</ResearchSpeedFactor>
-          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+          <ResearchSpeedFactor>0.04</ResearchSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.02</WorkTableWorkSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
       </li>
       <li Class="CompProperties_Power">
@@ -432,7 +423,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_TabletopLabMicroscope</defName>
     <label>tabletop lab microscope</label>
-    <description>Increases research speed by 15%. Limit 1 per workbench.\n\nThis tabletop lab microscope, an essential tool for meticulous analysis, is tailored for research excellence. Delivering a notable increase in research speed, it empowers your investigations, enabling swift and detailed exploration in your scientific pursuits.</description>
+    <description>Improves research speed by 10%. Limit 1 per workbench.\n\nThis tabletop lab microscope, an essential tool for meticulous analysis, is tailored for research excellence. Delivering a notable increase in research speed, it empowers your investigations, enabling swift and detailed exploration in your scientific pursuits.</description>
     <uiIconPath>UI/Prop_LabMicroscope</uiIconPath>
     <uiIconScale>1.75</uiIconScale>
     <graphicData>
@@ -455,18 +446,17 @@
     </blocksAltitudes>
     <size>(1,1)</size>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>110</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>Machining</li>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_AdvancedResearchFacilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.10</ResearchSpeedFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>8</maxDistance>
@@ -482,7 +472,7 @@
   <ThingDef ParentName="HobbesLinkResearch_Base">
     <defName>HobbesLink_BotanicalEnclosure</defName>
     <label>botanical enclosure</label>
-    <description>Increases research speed by 25% when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis botanical enclosure, a specialized lab appliance, is crafted for precise plant cultivation. Tailored for controlled environments, it not only facilitates plant studies but also significantly boosts research speed.</description>
+    <description>Improves research speed by 18% when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis botanical enclosure, a specialized lab appliance, is crafted for precise plant cultivation. Tailored for controlled environments, it not only facilitates plant studies but also significantly boosts research speed.</description>
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <uiIconScale>1.05</uiIconScale>
     <graphicData>
@@ -497,18 +487,18 @@
     <rotatable>true</rotatable>
     <size>(5,1)</size>
     <costList>
-      <Steel>125</Steel>
-      <Plasteel>50</Plasteel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>220</Steel>
+      <Plasteel>80</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_AdvancedResearchFacilities</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.18</ResearchSpeedFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <maxDistance>4</maxDistance>
@@ -525,7 +515,7 @@
     <defName>HobbesLink_ServerRack</defName>
     <label>server rack</label>
     <staticSunShadowHeight>0</staticSunShadowHeight>
-    <description>Increases research speed by 15%. Limit 4 per workbench.\n\nThis server rack, tailored for seamless integration with linked research setups, not only ensures efficient data handling but also delivers a substantial increase in research speed, optimizing your overall research experience.</description>
+    <description>Improves research speed by 10%. Limit 3 per workbench.\n\nThis server rack, tailored for seamless integration with linked research setups, not only ensures efficient data handling but also delivers a substantial increase in research speed, optimizing your overall research experience.</description>
     <uiIconPath>UI/Prop_3HSTServerRack</uiIconPath>
     <uiIconScale>1.75</uiIconScale>
     <fillPercent>0.5</fillPercent>
@@ -548,19 +538,20 @@
       <Mass>50</Mass>
     </statBases>
     <costList>
-      <Steel>200</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Steel>220</Steel>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>HobbesLink_LabElectronics</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
+          <ResearchSpeedFactor>0.10</ResearchSpeedFactor>
         </statOffsets>
-        <maxSimultaneous>4</maxSimultaneous>
+        <maxSimultaneous>3</maxSimultaneous>
         <maxDistance>6</maxDistance>
       </li>
       <li Class="CompProperties_Power">

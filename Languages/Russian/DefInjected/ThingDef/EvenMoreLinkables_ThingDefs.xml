@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_CNCMachine.label>станок ЧПУ</HobbesLink_CNCMachine.label>
+  <HobbesLink_CNCMachine.description>Увеличивает скорость работы связанного верстака на 35%, если размещен вплотную. Лимит 1 на верстак.\n\nЭтот современный станок ЧПУ (числовое программное управление) с компьютерной точностью направляет инструменты и детали, изготавливая аккуратные компоненты для ваших проектов.</HobbesLink_CNCMachine.description>
+
+  <HobbesLink_3DPrinter.label>3D-принтер</HobbesLink_3DPrinter.label>
+  <HobbesLink_3DPrinter.description>Увеличивает скорость работы связанного верстака на 30%, если размещен вплотную. Лимит 2 на верстак.\n\nИспользуя цифровую модель для послойного создания физического объекта, этот 3D-принтер ускоряет производство и экономит ценное время.</HobbesLink_3DPrinter.description>
+
+  <HobbesLink_RobotAssistant.label>робот-помощник</HobbesLink_RobotAssistant.label>
+  <HobbesLink_RobotAssistant.description>Увеличивает скорость работы связанного верстака на 65%, если размещен вплотную. Лимит 1 на верстак.\n\nЭтот робот промышленного класса, предназначенный для сборки, сварки, покраски и упаковки, дает значительный прирост. В режиме "Boost" он работает как обычный связанный модуль, а в альтернативном режиме периодически уменьшает оставшийся объем работы у задач вокруг подключенного верстака.</HobbesLink_RobotAssistant.description>
+
+  <HobbesLink_Lathe.label>токарный станок</HobbesLink_Lathe.label>
+  <HobbesLink_Lathe.description>Увеличивает скорость работы связанного верстака на 22%. Лимит 1 на верстак.\n\nЭтот токарный станок, настоящий помощник мастерской, легко вращает заготовки и уверенно выполняет точение, торцовку, сверление, накатку и нарезание резьбы.</HobbesLink_Lathe.description>
+
+  <HobbesLink_Spacer_Lathe.label>космический токарный станок</HobbesLink_Spacer_Lathe.label>
+  <HobbesLink_Spacer_Lathe.description>Увеличивает скорость работы связанного верстака на 40%. Лимит 1 на верстак.\n\nИспользуя передовые космические технологии, этот станок повышает точность и эффективность, а также легко связывается с разными рабочими местами, заметно увеличивая общую производительность.</HobbesLink_Spacer_Lathe.description>
+
+  <HobbesLink_Vice.label>тиски</HobbesLink_Vice.label>
+  <HobbesLink_Vice.description>Увеличивает скорость работы связанного верстака на 4%. Лимит 2 на верстак.\n\nСозданное как механический якорь, это устройство надежно фиксирует предметы во время работы и заметно повышает скорость благодаря своей надежности.</HobbesLink_Vice.description>
+
+  <HobbesLink_Autoclave.label>автоклав</HobbesLink_Autoclave.label>
+  <HobbesLink_Autoclave.description>Увеличивает скорость связанных исследований на 7%. Лимит 2 на верстак.\n\nИспользуя мощное давление пара для стерилизации, этот автоклав ускоряет исследования, уничтожая бактерии, вирусы и микроорганизмы, и поддерживает гигиеничную среду для более быстрых научных результатов.</HobbesLink_Autoclave.description>
+
+  <HobbesLink_Centrifuge.label>центрифуга</HobbesLink_Centrifuge.label>
+  <HobbesLink_Centrifuge.description>Увеличивает скорость связанных исследований на 10% и связанную скорость работы на 3%. Лимит 1 на верстак.\n\nИспользуя центробежную силу для точного разделения частиц и жидкостей, это оборудование упрощает рабочие процессы и обеспечивает повышенную эффективность в разных операциях.</HobbesLink_Centrifuge.description>
+
+  <HobbesLink_LaserEngraver.label>лазерный гравер</HobbesLink_LaserEngraver.label>
+  <HobbesLink_LaserEngraver.description>Увеличивает качество связанного производства на +1, если размещен вплотную к верстаку. Лимит 1 на верстак.\n\nЭта машина использует лазерный луч для аккуратной гравировки и резки сложных узоров на разных материалах, включая дерево, металл, стекло и пластик.</HobbesLink_LaserEngraver.description>
+
+  <HobbesLink_IndustrialOven.label>промышленная печь</HobbesLink_IndustrialOven.label>
+  <HobbesLink_IndustrialOven.description>Увеличивает скорость работы связанного верстака на 8%, если размещена вплотную. Лимит 1 на верстак.\n\nОриентированная на высокую производительность, эта печь легко подключается к различным производственным станциям и повышает эффективность за счет универсальной совместимости.</HobbesLink_IndustrialOven.description>
+
+  <HobbesLink_ConveyorBelt.label>конвейерная лента</HobbesLink_ConveyorBelt.label>
+  <HobbesLink_ConveyorBelt.description>Увеличивает скорость работы связанного верстака на 10%, если размещена вплотную. Лимит 1 на верстак.\n\nСозданная для эффективного производства, эта конвейерная лента легко связывается с разными столами обработки, ускоряет работу и поддерживает динамичный рабочий поток.</HobbesLink_ConveyorBelt.description>
+
+  <HobbesLink_Incinerator.label>инсинератор</HobbesLink_Incinerator.label>
+  <HobbesLink_Incinerator.description>Увеличивает связанную скорость работы на 10% и связанную скорость исследований на 4%. Лимит 1 на верстак.\n\nЭто устройство эффективно сжигает отходы при высоких температурах, уменьшая объем твердых отходов и превращая их в золу, дымовые газы и тепло. Дополнительно оно помогает поддерживать чистую и обеззараженную среду.</HobbesLink_Incinerator.description>
+
+  <HobbesLink_CoolingModule.label>модуль охлаждения</HobbesLink_CoolingModule.label>
+  <HobbesLink_CoolingModule.description>Увеличивает выходную мощность на 25%. Лимит 2 на генератор.\n\nЭтот модуль охлаждения электростанции эффективно охлаждает горячую воду или пар, обеспечивая их конденсацию в повторно используемую воду. Он грамотно отводит избыточное тепло и поддерживает оптимальные рабочие температуры.</HobbesLink_CoolingModule.description>
+
+  <HobbesLink_Alternator.label>альтернатор</HobbesLink_Alternator.label>
+  <HobbesLink_Alternator.description>Увеличивает выходную мощность на 14%. Лимит 2 на генератор.\n\nЭтот альтернатор - динамический электрогенератор, который преобразует механическую энергию в необходимый переменный ток (AC) для ваших систем.</HobbesLink_Alternator.description>
+
+  <HobbesLink_Pylon.label>энергетический пилон</HobbesLink_Pylon.label>
+  <HobbesLink_Pylon.description>Увеличивает выходную мощность на 3%. Лимит 12 на генератор.\n\nЭтот энергетический пилон, важное связующее звено, повышает эффективность подключенных энергоисточников и оптимизирует поток энергии для лучшей общей производительности.</HobbesLink_Pylon.description>
+
+  <HobbesLink_BreakerBox.label>щит автоматов</HobbesLink_BreakerBox.label>
+  <HobbesLink_BreakerBox.description>Увеличивает выходную мощность на 4%, если размещен вплотную к генератору. Лимит 1 на генератор.\n\nЭтот щит автоматов при стратегическом размещении рядом с генератором заметно повышает его эффективность. Как ключевой элемент, он оптимизирует распределение энергии в вашей электрической сети.</HobbesLink_BreakerBox.description>
+
+  <HobbesLink_CoolingTower.label>градирня</HobbesLink_CoolingTower.label>
+  <HobbesLink_CoolingTower.description>Увеличивает выходную мощность на 35%, если размещена вплотную к генератору. Лимит 2 на генератор.\n\nЭта градирня заметно повышает эффективность генератора. Точно регулируя температуру, она обеспечивает оптимальную работу и становится незаменимым элементом вашей энергосети.</HobbesLink_CoolingTower.description>
+
+  <HobbesLink_Transformer.label>трансформатор</HobbesLink_Transformer.label>
+  <HobbesLink_Transformer.description>Увеличивает выходную мощность на 15%. Лимит 2 на генератор.\n\nЭтот трансформатор передает энергию между цепями посредством электромагнитной индукции. Гибко изменяя уровни напряжения, он обеспечивает эффективную передачу и распределение электричества на большие расстояния.</HobbesLink_Transformer.description>
+
+  <HobbesLink_Spacer_LiquidPower.label>космический жидкостный усилитель мощности</HobbesLink_Spacer_LiquidPower.label>
+  <HobbesLink_Spacer_LiquidPower.description>Увеличивает выходную мощность на 32%, если размещен вплотную к генератору. Лимит 2 на генератор.\n\nЭтот космический жидкостный усилитель мощности использует электрически отрицательные жидкости для повышения эффективности генератора. Как передовое устройство, он оптимизирует выходную мощность и дает динамичное усиление энергосистемы.</HobbesLink_Spacer_LiquidPower.description>
+
+  <HobbesLink_Spacer_Transformer.label>космический трансформатор</HobbesLink_Spacer_Transformer.label>
+  <HobbesLink_Spacer_Transformer.description>Увеличивает выходную мощность на 60%, если размещен вплотную к генератору. Лимит 1 на генератор.\n\nЭтот космический трансформатор передает энергию между квантовыми цепями посредством электро-квантовой индукции. Динамически регулируя напряжение, он облегчает эффективную передачу и распределение энергии на большие расстояния.</HobbesLink_Spacer_Transformer.description>
+
+  <HobbesLink_Spacer_CoolantPump.label>космический насос охлаждения</HobbesLink_Spacer_CoolantPump.label>
+  <HobbesLink_Spacer_CoolantPump.description>Увеличивает выходную мощность на 30%, если размещен вплотную к генератору. Лимит 2 на генератор.\n\nЭтот космический насос охлаждения серьезно улучшает работу генераторов. Он повышает их эффективность за счет грамотного управления температурой. Это ключевой компонент для высокой производительности и долговечности.</HobbesLink_Spacer_CoolantPump.description>
+
+  <HobbesLink_Spacer_Console.label>космическая силовая консоль</HobbesLink_Spacer_Console.label>
+  <HobbesLink_Spacer_Console.description>Увеличивает выходную мощность на 18%, если размещена вплотную к генератору. Лимит 1 на генератор.\n\nЭта космическая консоль генератора, тесно связанная с системой, позволяет использовать продвинутое программирование для оптимизации эффективности генератора. Она дает точный контроль и раскрывает максимальную производительность энергосистемы.</HobbesLink_Spacer_Console.description>
+
+  <HobbesLink_Spacer_Condensator.label>космический конденсатор</HobbesLink_Spacer_Condensator.label>
+  <HobbesLink_Spacer_Condensator.description>Увеличивает выходную мощность на 8%. Лимит 3 на генератор.\n\nЭтот интеллектуальный модуль космического конденсатора использует статическую рекуррентность в электрогенераторах. Его продуманная конструкция значительно повышает их эффективность и служит ключевым компонентом повышения производительности.</HobbesLink_Spacer_Condensator.description>
+
+  <HobbesLink_PersonalComputer.label>персональный компьютер</HobbesLink_PersonalComputer.label>
+  <HobbesLink_PersonalComputer.description>Увеличивает скорость исследований на 10%, если размещен вплотную к исследовательскому столу. Лимит 3 на верстак.\n\nЭтот персональный компьютер (PC) добавляет колонии универсальности благодаря индивидуально ориентированному дизайну. Оснащенный мощным процессором, памятью и хранилищем, он служит важным инструментом для повседневных задач.</HobbesLink_PersonalComputer.description>
+
+  <HobbesLink_Still.label>дистиллятор</HobbesLink_Still.label>
+  <HobbesLink_Still.description>Увеличивает скорость исследований на 4% и скорость работы на 3%. Лимит 1 на верстак.\n\nЭтот лабораторный дистиллятор - важный помощник в разделении растворителей. Он аккуратно нагревает смесь, улавливает пары через конденсацию и подает очищенный растворитель в отдельный контейнер.</HobbesLink_Still.description>
+
+  <HobbesLink_Rotovape.label>роторный испаритель</HobbesLink_Rotovape.label>
+  <HobbesLink_Rotovape.description>Увеличивает скорость исследований на 14% и скорость работы на 6%. Лимит 1 на верстак.\n\nЭтот роторный испаритель - тихий алхимик лаборатории, отлично очищающий жидкости. Он сочетает нагрев и вращение, испаряя содержимое колбы и конденсируя чистые пары в отдельную приемную колбу.</HobbesLink_Rotovape.description>
+
+  <HobbesLink_TabletopCentrifuge.label>настольная центрифуга</HobbesLink_TabletopCentrifuge.label>
+  <HobbesLink_TabletopCentrifuge.description>Увеличивает скорость исследований на 4% и скорость работы на 3%. Лимит 1 на верстак.\n\nЭта настольная центрифуга создана для повышения пропускной способности. Благодаря продуманной конструкции она дает заметный прирост продуктивности и обеспечивает плавную, быструю работу.</HobbesLink_TabletopCentrifuge.description>
+
+  <HobbesLink_TabletopStove.label>настольная плита</HobbesLink_TabletopStove.label>
+  <HobbesLink_TabletopStove.description>Увеличивает скорость исследований на 4% и скорость работы на 3%. Лимит 1 на верстак.\n\nЭта исследовательская настольная плита готова к экспериментам и повышает эффективность ваших исследований. Адаптированная для научных задач, она заметно ускоряет обработку.</HobbesLink_TabletopStove.description>
+
+  <HobbesLink_TabletopLabMachine.label>настольная лабораторная машина</HobbesLink_TabletopLabMachine.label>
+  <HobbesLink_TabletopLabMachine.description>Увеличивает скорость исследований на 4%. Лимит 1 на верстак.\n\nЭта настольная лабораторная машина, универсальное устройство, подходит для разных исследовательских задач. Она позволяет подключаться к различным конфигурациям и упрощает эксперименты благодаря инновационному подходу.</HobbesLink_TabletopLabMachine.description>
+
+  <HobbesLink_TabletopOscilloscope.label>настольный осциллограф</HobbesLink_TabletopOscilloscope.label>
+  <HobbesLink_TabletopOscilloscope.description>Увеличивает скорость исследований на 4%. Лимит 1 на верстак.\n\nЭтот настольный осциллограф, универсальный лабораторный помощник, отлично подходит для электронных измерений. Он не только повышает эффективность, но и добавляет вашим экспериментам более высокий уровень точности.</HobbesLink_TabletopOscilloscope.description>
+
+  <HobbesLink_TabletopLabScanner.label>настольный лабораторный сканер</HobbesLink_TabletopLabScanner.label>
+  <HobbesLink_TabletopLabScanner.description>Увеличивает скорость исследований на 4%. Лимит 1 на верстак.\n\nЭтот настольный лабораторный сканер, универсальный исследовательский инструмент, хорошо проявляет себя в разных анализах. Он заметно ускоряет исследования и становится незаменимым активом лаборатории.</HobbesLink_TabletopLabScanner.description>
+
+  <HobbesLink_TabletopLabTubeRack.label>настольный штатив для пробирок</HobbesLink_TabletopLabTubeRack.label>
+  <HobbesLink_TabletopLabTubeRack.description>Увеличивает скорость исследований на 4% и скорость работы на 2%. Лимит 1 на верстак.\n\nЭтот настольный штатив для пробирок, незаменимый организационный помощник, обеспечивает более гладкое проведение экспериментов. Благодаря эффективному хранению и оптимизированным процессам он повышает общую эффективность лаборатории.</HobbesLink_TabletopLabTubeRack.description>
+
+  <HobbesLink_TabletopLabMicroscope.label>настольный лабораторный микроскоп</HobbesLink_TabletopLabMicroscope.label>
+  <HobbesLink_TabletopLabMicroscope.description>Увеличивает скорость исследований на 10%. Лимит 1 на верстак.\n\nЭтот настольный лабораторный микроскоп, важный инструмент для тщательного анализа, создан для исследовательского превосходства. Он дает заметный рост скорости исследований и позволяет проводить быстрые и детальные изыскания.</HobbesLink_TabletopLabMicroscope.description>
+
+  <HobbesLink_BotanicalEnclosure.label>ботаническая камера</HobbesLink_BotanicalEnclosure.label>
+  <HobbesLink_BotanicalEnclosure.description>Увеличивает скорость исследований на 18%, если размещена вплотную к исследовательскому столу. Лимит 1 на верстак.\n\nЭта ботаническая камера, специализированный лабораторный модуль, создана для точного выращивания растений. В контролируемой среде она не только облегчает ботанические исследования, но и существенно ускоряет их.</HobbesLink_BotanicalEnclosure.description>
+
+  <HobbesLink_ServerRack.label>серверная стойка</HobbesLink_ServerRack.label>
+  <HobbesLink_ServerRack.description>Увеличивает скорость исследований на 10%. Лимит 3 на верстак.\n\nЭта серверная стойка, адаптированная для бесшовной интеграции со связанными исследовательскими установками, обеспечивает эффективную обработку данных и дает значительный прирост скорости исследований.</HobbesLink_ServerRack.description>
+</LanguageData>

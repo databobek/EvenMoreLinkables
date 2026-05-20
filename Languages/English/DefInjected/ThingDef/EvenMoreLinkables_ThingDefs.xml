@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_CNCMachine.label>CNC machine</HobbesLink_CNCMachine.label>
+  <HobbesLink_CNCMachine.description>Improves linked workbench work speed by 35% when placed directly adjacent. Limit 1 per workbench.\n\nThis state-of-the-art CNC (computer numerical control) machine expertly guides tools and parts with computer precision, fashioning meticulous components for your projects.</HobbesLink_CNCMachine.description>
+
+  <HobbesLink_3DPrinter.label>3D printer</HobbesLink_3DPrinter.label>
+  <HobbesLink_3DPrinter.description>Improves linked workbench work speed by 30% when placed directly adjacent. Limit 2 per workbench.\n\n Harnessing a digital model to build a tangible object through layered materials, this 3D printer accelerates construction, saving valuable time in the process.</HobbesLink_3DPrinter.description>
+
+  <HobbesLink_RobotAssistant.label>robot assistant</HobbesLink_RobotAssistant.label>
+  <HobbesLink_RobotAssistant.description>Improves linked workbench work speed by 65% when placed directly adjacent. Limit 1 per workbench.\n\nThis industrial-grade robot, designed for assembly, welding, painting, and packaging, provides a substantial lift. With switchable modes, "Boost" operates as a standard linkable, while the alternate mode periodically reduces remaining work on tasks around the connected workbench.</HobbesLink_RobotAssistant.description>
+
+  <HobbesLink_Lathe.label>lathe</HobbesLink_Lathe.label>
+  <HobbesLink_Lathe.description>Improves linked workbench work speed by 22%. Limit 1 per workbench.\n\nThis lathe, a true workshop companion, effortlessly rotates workpieces, skillfully handling turning, facing, drilling, knurling, and threading operations with precision.</HobbesLink_Lathe.description>
+
+  <HobbesLink_Spacer_Lathe.label>spacer lathe</HobbesLink_Spacer_Lathe.label>
+  <HobbesLink_Spacer_Lathe.description>Improves linked workbench work speed by 40%. Limit 1 per workbench.\n\nInfusing cutting-edge spacer technology, this lathe elevates precision and efficiency, seamlessly linking with diverse workstations for a notable surge in overall productivity.</HobbesLink_Spacer_Lathe.description>
+
+  <HobbesLink_Vice.label>vice</HobbesLink_Vice.label>
+  <HobbesLink_Vice.description>Improves linked workbench work speed by 4%. Limit 2 per workbench.\n\nCrafted as a mechanical anchor, this device ensures a firm grip on objects during tasks, significantly amplifying work speed with its steadfast reliability.</HobbesLink_Vice.description>
+
+  <HobbesLink_Autoclave.label>autoclave</HobbesLink_Autoclave.label>
+  <HobbesLink_Autoclave.description>Improves linked research speed by 7%. Limit 2 per workbench.\n\nHarnessing potent steam pressure for sterilization, this autoclave accelerates research by eradicating bacteria, viruses, and microorganisms, ensuring a hygienic environment that fosters expedited scientific advancements.</HobbesLink_Autoclave.description>
+
+  <HobbesLink_Centrifuge.label>centrifuge</HobbesLink_Centrifuge.label>
+  <HobbesLink_Centrifuge.description>Improves linked research speed by 10% and linked work speed by 3%. Limit 1 per workbench.\n\nEmploying centrifugal force for precise particle and liquid separation, this equipment streamlines workflows, providing an elevated efficiency that seamlessly integrates into diverse operational processes.</HobbesLink_Centrifuge.description>
+
+  <HobbesLink_LaserEngraver.label>laser engraver</HobbesLink_LaserEngraver.label>
+  <HobbesLink_LaserEngraver.description>Improves linked production quality by +1 when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis machine employs a laser beam to delicately engrave or cut intricate designs onto an array of materials, including wood, metal, glass, and plastic, showcasing its versatility across various crafting endeavors.</HobbesLink_LaserEngraver.description>
+
+  <HobbesLink_IndustrialOven.label>industrial oven</HobbesLink_IndustrialOven.label>
+  <HobbesLink_IndustrialOven.description>Improves linked workbench work speed by 8% when placed directly adjacent. Limit 1 per workbench.\n\nGeared for heightened productivity, this oven seamlessly connects to various processing stations, boosting efficiency with versatile compatibility across different stages of operation.</HobbesLink_IndustrialOven.description>
+
+  <HobbesLink_ConveyorBelt.label>conveyor belt</HobbesLink_ConveyorBelt.label>
+  <HobbesLink_ConveyorBelt.description>Improves linked workbench work speed by 10% when placed directly adjacent. Limit 1 per workbench.\n\nTailored for efficient manufacturing, this conveyor seamlessly links with diverse machining tables, accelerating work speed and fostering a dynamic workflow for heightened productivity.</HobbesLink_ConveyorBelt.description>
+
+  <HobbesLink_Incinerator.label>incinerator</HobbesLink_Incinerator.label>
+  <HobbesLink_Incinerator.description>Improves linked work speed by 10% and linked research speed by 4%. Limit 1 per workbench.\n\nThis device efficiently burns waste at high temperatures, minimizing solid waste volume and transforming it into ash, flue gas, and heat. Additionally, it ensures a clean and sanitized environment, enhancing the overall room cleanliness.</HobbesLink_Incinerator.description>
+
+  <HobbesLink_CoolingModule.label>cooling module</HobbesLink_CoolingModule.label>
+  <HobbesLink_CoolingModule.description>Improves power output by 25%. Limit 2 per generator.\n\nThis power plant cooling module efficiently cools hot water or steam, ensuring it condenses back into reusable water. It adeptly manages waste heat, maintaining optimal temperatures to keep the power plant running smoothly.</HobbesLink_CoolingModule.description>
+
+  <HobbesLink_Alternator.label>alternator</HobbesLink_Alternator.label>
+  <HobbesLink_Alternator.description>Improves power output by 14%. Limit 2 per generator.\n\nThis alternator is a dynamic electrical generator, seamlessly transforming mechanical energy into the essential alternating current (AC) electrical power for your systems.</HobbesLink_Alternator.description>
+
+  <HobbesLink_Pylon.label>power pylon</HobbesLink_Pylon.label>
+  <HobbesLink_Pylon.description>Improves power output by 3%. Limit 12 per generator.\n\nThis power pylon, a vital link, enhances the efficiency of connected power-producing structures. It optimizes energy flow for improved overall performance.</HobbesLink_Pylon.description>
+
+  <HobbesLink_BreakerBox.label>breaker box</HobbesLink_BreakerBox.label>
+  <HobbesLink_BreakerBox.description>Improves power output by 4% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis breaker box, when strategically positioned near a power generator, significantly boosts its efficiency. Acting as a key element, it optimizes power distribution for enhanced functionality in your electrical network.</HobbesLink_BreakerBox.description>
+
+  <HobbesLink_CoolingTower.label>cooling tower</HobbesLink_CoolingTower.label>
+  <HobbesLink_CoolingTower.description>Improves power output by 35% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis cooling tower is a powerhouse in enhancing generator efficiency. Skillfully regulating temperatures, it ensures optimal performance, making it an indispensable component for your power generation network.</HobbesLink_CoolingTower.description>
+
+  <HobbesLink_Transformer.label>transformer</HobbesLink_Transformer.label>
+  <HobbesLink_Transformer.description>Improves power output by 15%. Limit 2 per generator.\n\nThis transformer seamlessly transfers energy between circuits through electromagnetic induction. By adeptly adjusting voltage levels, it enables efficient transmission and distribution of electrical power across long distances, a cornerstone for effective energy management.</HobbesLink_Transformer.description>
+
+  <HobbesLink_Spacer_LiquidPower.label>spacer liquid power booster</HobbesLink_Spacer_LiquidPower.label>
+  <HobbesLink_Spacer_LiquidPower.description>Improves power output by 32% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis spacer liquid power booster employs electrically negative liquids, elevating generator performance. As a cutting-edge device, it optimizes power output, ensuring a dynamic enhancement to your energy generation capabilities.</HobbesLink_Spacer_LiquidPower.description>
+
+  <HobbesLink_Spacer_Transformer.label>spacer transformer</HobbesLink_Spacer_Transformer.label>
+  <HobbesLink_Spacer_Transformer.description>Improves power output by 60% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis spacer transformer seamlessly transfers energy between quantum circuits through electroquantumic induction. By dynamically adjusting voltage levels, it facilitates the efficient transmission and distribution of electrical power over extended distances, revolutionizing energy management in your advanced systems.</HobbesLink_Spacer_Transformer.description>
+
+  <HobbesLink_Spacer_CoolantPump.label>spacer coolant pump</HobbesLink_Spacer_CoolantPump.label>
+  <HobbesLink_Spacer_CoolantPump.description>Improves power output by 30% when placed directly adjacent to a power generator. Limit 2 per generator.\n\nThis spacer coolant pump is a game-changer for power generators. It empowers them to enhance effectiveness by efficiently managing temperatures. A crucial component in your advanced system, this pump ensures optimal performance and longevity.</HobbesLink_Spacer_CoolantPump.description>
+
+  <HobbesLink_Spacer_Console.label>spacer power console</HobbesLink_Spacer_Console.label>
+  <HobbesLink_Spacer_Console.description>Improves power output by 18% when placed directly adjacent to a power generator. Limit 1 per generator.\n\nThis spacer power generator console, intricately linked, empowers advanced programming to optimize generator effectiveness. A technological marvel, it enables precision control, unlocking peak performance for your power generation system.</HobbesLink_Spacer_Console.description>
+
+  <HobbesLink_Spacer_Condensator.label>spacer condensator</HobbesLink_Spacer_Condensator.label>
+  <HobbesLink_Spacer_Condensator.description>Improves power output by 8%. Limit 3 per generator.\n\nThis spacer intelligent condensator module utilizes static recurrency in electrical generators. Its intelligent design significantly boosts their effectiveness, serving as a key component for enhanced performance in your advanced technological landscape.</HobbesLink_Spacer_Condensator.description>
+
+  <HobbesLink_PersonalComputer.label>personal computer</HobbesLink_PersonalComputer.label>
+  <HobbesLink_PersonalComputer.description>Improves research speed by 10% when placed directly adjacent to a workbench. Limit 3 per workbench.\n\nThis personal computer (PC) brings versatility to your colony with its individual-focused design. Packed with CPU power, ample memory, and storage, this essential tool caters to personal needs.</HobbesLink_PersonalComputer.description>
+
+  <HobbesLink_Still.label>still</HobbesLink_Still.label>
+  <HobbesLink_Still.description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis solvent still is a crucial lab companion, skillfully separating solvents. It delicately heats, captures vapors through condensation, and delivers pristine solvents into a designated container, ensuring precision in your experiments.</HobbesLink_Still.description>
+
+  <HobbesLink_Rotovape.label>rotary evaporator</HobbesLink_Rotovape.label>
+  <HobbesLink_Rotovape.description>Improves research speed by 14% and work speed by 6%. Limit 1 per workbench.\n\nThis rotary evaporator is a lab's silent alchemist, adeptly purifying liquids. It skillfully combines heat and rotation, evaporating contents in a flask, and condensing pure vapors into a separate collector flask for refined experiments.</HobbesLink_Rotovape.description>
+
+  <HobbesLink_TabletopCentrifuge.label>tabletop centrifuge</HobbesLink_TabletopCentrifuge.label>
+  <HobbesLink_TabletopCentrifuge.description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis tabletop centrifuge is your efficiency ally, designed to amplify throughput. With its streamlined design, it delivers a significant boost in productivity for your tasks, ensuring a seamless and swift operation.</HobbesLink_TabletopCentrifuge.description>
+
+  <HobbesLink_TabletopStove.label>tabletop stove</HobbesLink_TabletopStove.label>
+  <HobbesLink_TabletopStove.description>Improves research speed by 4% and work speed by 3%. Limit 1 per workbench.\n\nThis research tabletop stove stands ready for experimentation, enhancing efficiency in your studies. Tailored for research setups, it brings a significant boost in processing efficiency, contributing to the precision and effectiveness of your scientific endeavors.</HobbesLink_TabletopStove.description>
+
+  <HobbesLink_TabletopLabMachine.label>tabletop lab machine</HobbesLink_TabletopLabMachine.label>
+  <HobbesLink_TabletopLabMachine.description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop lab machine, a versatile marvel, caters to diverse research needs. It uniquely accommodates connections to different setups, streamlining your experiments with an innovative approach.</HobbesLink_TabletopLabMachine.description>
+
+  <HobbesLink_TabletopOscilloscope.label>tabletop oscilloscope</HobbesLink_TabletopOscilloscope.label>
+  <HobbesLink_TabletopOscilloscope.description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop oscilloscope, a versatile lab companion, excels in electronic measurements. Tailored for diverse test setups, it not only enhances efficiency but also brings a heightened level of precision to your experiments, making it an invaluable asset in your research arsenal.</HobbesLink_TabletopOscilloscope.description>
+
+  <HobbesLink_TabletopLabScanner.label>tabletop lab scanner</HobbesLink_TabletopLabScanner.label>
+  <HobbesLink_TabletopLabScanner.description>Improves research speed by 4%. Limit 1 per workbench.\n\nThis tabletop lab scanner, a versatile research tool, excels in various analyses. Offering a significant boost in research speed, it becomes an indispensable asset, enhancing the pace and efficiency of your experiments.</HobbesLink_TabletopLabScanner.description>
+
+  <HobbesLink_TabletopLabTubeRack.label>tabletop lab tube rack</HobbesLink_TabletopLabTubeRack.label>
+  <HobbesLink_TabletopLabTubeRack.description>Improves research speed by 4% and work speed by 2%. Limit 1 per workbench.\n\nThis tabletop lab tube rack, an indispensable organizational ally, ensures seamless experiments. With efficient storage and optimized workflows, it becomes a cornerstone in your laboratory, enhancing the overall efficiency of your experiments.</HobbesLink_TabletopLabTubeRack.description>
+
+  <HobbesLink_TabletopLabMicroscope.label>tabletop lab microscope</HobbesLink_TabletopLabMicroscope.label>
+  <HobbesLink_TabletopLabMicroscope.description>Improves research speed by 10%. Limit 1 per workbench.\n\nThis tabletop lab microscope, an essential tool for meticulous analysis, is tailored for research excellence. Delivering a notable increase in research speed, it empowers your investigations, enabling swift and detailed exploration in your scientific pursuits.</HobbesLink_TabletopLabMicroscope.description>
+
+  <HobbesLink_BotanicalEnclosure.label>botanical enclosure</HobbesLink_BotanicalEnclosure.label>
+  <HobbesLink_BotanicalEnclosure.description>Improves research speed by 18% when placed directly adjacent to a workbench. Limit 1 per workbench.\n\nThis botanical enclosure, a specialized lab appliance, is crafted for precise plant cultivation. Tailored for controlled environments, it not only facilitates plant studies but also significantly boosts research speed.</HobbesLink_BotanicalEnclosure.description>
+
+  <HobbesLink_ServerRack.label>server rack</HobbesLink_ServerRack.label>
+  <HobbesLink_ServerRack.description>Improves research speed by 10%. Limit 3 per workbench.\n\nThis server rack, tailored for seamless integration with linked research setups, not only ensures efficient data handling but also delivers a substantial increase in research speed, optimizing your overall research experience.</HobbesLink_ServerRack.description>
+</LanguageData>

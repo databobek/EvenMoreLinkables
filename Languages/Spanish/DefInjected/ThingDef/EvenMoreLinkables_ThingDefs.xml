@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_CNCMachine.label>maquina CNC</HobbesLink_CNCMachine.label>
+  <HobbesLink_CNCMachine.description>Mejora la velocidad de trabajo del banco vinculado en un 35% cuando se coloca justo al lado. Limite 1 por banco.\n\nEsta maquina CNC (control numerico por computadora) de ultima generacion guia herramientas y piezas con precision informatica, fabricando componentes meticulosos para tus proyectos.</HobbesLink_CNCMachine.description>
+
+  <HobbesLink_3DPrinter.label>impresora 3D</HobbesLink_3DPrinter.label>
+  <HobbesLink_3DPrinter.description>Mejora la velocidad de trabajo del banco vinculado en un 30% cuando se coloca justo al lado. Limite 2 por banco.\n\nAl usar un modelo digital para construir un objeto tangible mediante capas de material, esta impresora 3D acelera la fabricacion y ahorra un tiempo valioso.</HobbesLink_3DPrinter.description>
+
+  <HobbesLink_RobotAssistant.label>asistente robotico</HobbesLink_RobotAssistant.label>
+  <HobbesLink_RobotAssistant.description>Mejora la velocidad de trabajo del banco vinculado en un 65% cuando se coloca justo al lado. Limite 1 por banco.\n\nEste robot de grado industrial, disenado para ensamblaje, soldadura, pintura y empaquetado, aporta una gran mejora. Con modos intercambiables, "Boost" funciona como un vinculable estandar, mientras que el modo alternativo reduce periodicamente el trabajo restante de las tareas alrededor del banco conectado.</HobbesLink_RobotAssistant.description>
+
+  <HobbesLink_Lathe.label>torno</HobbesLink_Lathe.label>
+  <HobbesLink_Lathe.description>Mejora la velocidad de trabajo del banco vinculado en un 22%. Limite 1 por banco.\n\nEste torno, un autentico companero de taller, hace girar piezas de trabajo con facilidad y realiza operaciones de torneado, refrentado, taladrado, moleteado y roscado con precision.</HobbesLink_Lathe.description>
+
+  <HobbesLink_Spacer_Lathe.label>torno espacial</HobbesLink_Spacer_Lathe.label>
+  <HobbesLink_Spacer_Lathe.description>Mejora la velocidad de trabajo del banco vinculado en un 40%. Limite 1 por banco.\n\nAl incorporar tecnologia espacial de vanguardia, este torno eleva la precision y la eficiencia, enlazandose sin esfuerzo con distintos puestos de trabajo para lograr un notable aumento de productividad.</HobbesLink_Spacer_Lathe.description>
+
+  <HobbesLink_Vice.label>tornillo de banco</HobbesLink_Vice.label>
+  <HobbesLink_Vice.description>Mejora la velocidad de trabajo del banco vinculado en un 4%. Limite 2 por banco.\n\nConstruido como un ancla mecanica, este dispositivo garantiza una sujecion firme de objetos durante el trabajo y aumenta de forma apreciable la velocidad gracias a su fiabilidad.</HobbesLink_Vice.description>
+
+  <HobbesLink_Autoclave.label>autoclave</HobbesLink_Autoclave.label>
+  <HobbesLink_Autoclave.description>Mejora la velocidad de investigacion vinculada en un 7%. Limite 2 por banco.\n\nAl aprovechar una potente presion de vapor para esterilizar, este autoclave acelera la investigacion al eliminar bacterias, virus y microorganismos, garantizando un entorno higienico que favorece avances cientificos mas rapidos.</HobbesLink_Autoclave.description>
+
+  <HobbesLink_Centrifuge.label>centrifuga</HobbesLink_Centrifuge.label>
+  <HobbesLink_Centrifuge.description>Mejora la velocidad de investigacion vinculada en un 10% y la velocidad de trabajo vinculada en un 3%. Limite 1 por banco.\n\nAl emplear fuerza centrifuga para separar con precision particulas y liquidos, este equipo agiliza los flujos de trabajo y ofrece una eficiencia superior que se integra en diversos procesos operativos.</HobbesLink_Centrifuge.description>
+
+  <HobbesLink_LaserEngraver.label>grabadora laser</HobbesLink_LaserEngraver.label>
+  <HobbesLink_LaserEngraver.description>Mejora la calidad de produccion vinculada en +1 cuando se coloca justo al lado de un banco. Limite 1 por banco.\n\nEsta maquina utiliza un haz laser para grabar o cortar con delicadeza disenos intrincados sobre diversos materiales, como madera, metal, vidrio y plastico, demostrando su versatilidad en diferentes tareas de fabricacion.</HobbesLink_LaserEngraver.description>
+
+  <HobbesLink_IndustrialOven.label>horno industrial</HobbesLink_IndustrialOven.label>
+  <HobbesLink_IndustrialOven.description>Mejora la velocidad de trabajo del banco vinculado en un 8% cuando se coloca justo al lado. Limite 1 por banco.\n\nDisenado para mayor productividad, este horno se conecta sin problemas a distintas estaciones de procesamiento y aumenta la eficiencia gracias a su compatibilidad versatil en varias etapas de trabajo.</HobbesLink_IndustrialOven.description>
+
+  <HobbesLink_ConveyorBelt.label>cinta transportadora</HobbesLink_ConveyorBelt.label>
+  <HobbesLink_ConveyorBelt.description>Mejora la velocidad de trabajo del banco vinculado en un 10% cuando se coloca justo al lado. Limite 1 por banco.\n\nPensada para una fabricacion eficiente, esta cinta se vincula sin problemas con distintas mesas de mecanizado, acelera el trabajo y fomenta un flujo dinamico para lograr mayor productividad.</HobbesLink_ConveyorBelt.description>
+
+  <HobbesLink_Incinerator.label>incinerador</HobbesLink_Incinerator.label>
+  <HobbesLink_Incinerator.description>Mejora la velocidad de trabajo vinculada en un 10% y la velocidad de investigacion vinculada en un 4%. Limite 1 por banco.\n\nEste dispositivo quema residuos de manera eficiente a altas temperaturas, minimizando el volumen de desechos solidos y transformandolos en ceniza, gases y calor. Ademas, ayuda a mantener un entorno limpio y desinfectado, mejorando la limpieza general de la sala.</HobbesLink_Incinerator.description>
+
+  <HobbesLink_CoolingModule.label>modulo de refrigeracion</HobbesLink_CoolingModule.label>
+  <HobbesLink_CoolingModule.description>Mejora la salida de energia en un 25%. Limite 2 por generador.\n\nEste modulo de refrigeracion para planta energetica enfria de forma eficiente agua caliente o vapor, asegurando su condensacion en agua reutilizable. Gestiona el calor residual con eficacia y mantiene temperaturas optimas para un funcionamiento estable.</HobbesLink_CoolingModule.description>
+
+  <HobbesLink_Alternator.label>alternador</HobbesLink_Alternator.label>
+  <HobbesLink_Alternator.description>Mejora la salida de energia en un 14%. Limite 2 por generador.\n\nEste alternador es un generador electrico dinamico que transforma energia mecanica en la energia electrica esencial de corriente alterna (CA) para tus sistemas.</HobbesLink_Alternator.description>
+
+  <HobbesLink_Pylon.label>pilon electrico</HobbesLink_Pylon.label>
+  <HobbesLink_Pylon.description>Mejora la salida de energia en un 3%. Limite 12 por generador.\n\nEste pilon electrico, un enlace vital, mejora la eficiencia de las estructuras conectadas que producen energia. Optimiza el flujo energetico para un mejor rendimiento general.</HobbesLink_Pylon.description>
+
+  <HobbesLink_BreakerBox.label>caja de disyuntores</HobbesLink_BreakerBox.label>
+  <HobbesLink_BreakerBox.description>Mejora la salida de energia en un 4% cuando se coloca justo al lado de un generador. Limite 1 por generador.\n\nEsta caja de disyuntores, al situarse estrategicamente cerca de un generador, aumenta de forma notable su eficiencia. Actua como un elemento clave para optimizar la distribucion electrica de tu red.</HobbesLink_BreakerBox.description>
+
+  <HobbesLink_CoolingTower.label>torre de refrigeracion</HobbesLink_CoolingTower.label>
+  <HobbesLink_CoolingTower.description>Mejora la salida de energia en un 35% cuando se coloca justo al lado de un generador. Limite 2 por generador.\n\nEsta torre de refrigeracion es fundamental para mejorar la eficiencia de los generadores. Al regular temperaturas con precision, asegura un rendimiento optimo y se vuelve indispensable en tu red energetica.</HobbesLink_CoolingTower.description>
+
+  <HobbesLink_Transformer.label>transformador</HobbesLink_Transformer.label>
+  <HobbesLink_Transformer.description>Mejora la salida de energia en un 15%. Limite 2 por generador.\n\nEste transformador transfiere energia entre circuitos mediante induccion electromagnetica. Al ajustar los niveles de voltaje con eficacia, permite la transmision y distribucion eficiente de electricidad a larga distancia.</HobbesLink_Transformer.description>
+
+  <HobbesLink_Spacer_LiquidPower.label>potenciador liquido espacial</HobbesLink_Spacer_LiquidPower.label>
+  <HobbesLink_Spacer_LiquidPower.description>Mejora la salida de energia en un 32% cuando se coloca justo al lado de un generador. Limite 2 por generador.\n\nEste potenciador liquido espacial emplea liquidos electricamente negativos para elevar el rendimiento del generador. Como dispositivo de alta tecnologia, optimiza la salida energetica y aporta una mejora dinamica a tu sistema.</HobbesLink_Spacer_LiquidPower.description>
+
+  <HobbesLink_Spacer_Transformer.label>transformador espacial</HobbesLink_Spacer_Transformer.label>
+  <HobbesLink_Spacer_Transformer.description>Mejora la salida de energia en un 60% cuando se coloca justo al lado de un generador. Limite 1 por generador.\n\nEste transformador espacial transfiere energia entre circuitos cuanticos mediante induccion electrocuantica. Ajusta dinamicamente el voltaje para facilitar una transmision y distribucion eficiente de energia a grandes distancias.</HobbesLink_Spacer_Transformer.description>
+
+  <HobbesLink_Spacer_CoolantPump.label>bomba de refrigerante espacial</HobbesLink_Spacer_CoolantPump.label>
+  <HobbesLink_Spacer_CoolantPump.description>Mejora la salida de energia en un 30% cuando se coloca justo al lado de un generador. Limite 2 por generador.\n\nEsta bomba de refrigerante espacial cambia las reglas para los generadores. Les permite mejorar su eficacia al gestionar la temperatura con eficiencia. Es un componente crucial para un rendimiento optimo y una larga vida util.</HobbesLink_Spacer_CoolantPump.description>
+
+  <HobbesLink_Spacer_Console.label>consola energetica espacial</HobbesLink_Spacer_Console.label>
+  <HobbesLink_Spacer_Console.description>Mejora la salida de energia en un 18% cuando se coloca justo al lado de un generador. Limite 1 por generador.\n\nEsta consola de generador espacial, estrechamente vinculada, permite una programacion avanzada para optimizar la eficacia del generador. Es una maravilla tecnologica que habilita un control preciso y un rendimiento maximo.</HobbesLink_Spacer_Console.description>
+
+  <HobbesLink_Spacer_Condensator.label>condensador espacial</HobbesLink_Spacer_Condensator.label>
+  <HobbesLink_Spacer_Condensator.description>Mejora la salida de energia en un 8%. Limite 3 por generador.\n\nEste modulo condensador espacial inteligente utiliza recurrencia estatica en generadores electricos. Su diseno inteligente incrementa de forma significativa su eficacia y actua como un componente clave para mejorar el rendimiento.</HobbesLink_Spacer_Condensator.description>
+
+  <HobbesLink_PersonalComputer.label>computadora personal</HobbesLink_PersonalComputer.label>
+  <HobbesLink_PersonalComputer.description>Mejora la velocidad de investigacion en un 10% cuando se coloca justo al lado de un banco. Limite 3 por banco.\n\nEsta computadora personal (PC) aporta versatilidad a tu colonia con su diseno orientado al uso individual. Con buena potencia de CPU, memoria y almacenamiento, es una herramienta esencial para necesidades personales.</HobbesLink_PersonalComputer.description>
+
+  <HobbesLink_Still.label>alambique</HobbesLink_Still.label>
+  <HobbesLink_Still.description>Mejora la velocidad de investigacion en un 4% y la velocidad de trabajo en un 3%. Limite 1 por banco.\n\nEste alambique de solventes es un companero clave de laboratorio que separa solventes con precision. Calienta con delicadeza, captura vapores por condensacion y entrega solventes puros en un contenedor dedicado.</HobbesLink_Still.description>
+
+  <HobbesLink_Rotovape.label>evaporador rotatorio</HobbesLink_Rotovape.label>
+  <HobbesLink_Rotovape.description>Mejora la velocidad de investigacion en un 14% y la velocidad de trabajo en un 6%. Limite 1 por banco.\n\nEste evaporador rotatorio es un alquimista silencioso del laboratorio, experto en purificar liquidos. Combina calor y rotacion para evaporar contenidos en un matraz y condensar vapores puros en un colector separado.</HobbesLink_Rotovape.description>
+
+  <HobbesLink_TabletopCentrifuge.label>centrifuga de sobremesa</HobbesLink_TabletopCentrifuge.label>
+  <HobbesLink_TabletopCentrifuge.description>Mejora la velocidad de investigacion en un 4% y la velocidad de trabajo en un 3%. Limite 1 por banco.\n\nEsta centrifuga de sobremesa esta disenada para aumentar el rendimiento. Su diseno optimizado proporciona un impulso notable de productividad para que tus tareas fluyan con rapidez.</HobbesLink_TabletopCentrifuge.description>
+
+  <HobbesLink_TabletopStove.label>hornillo de sobremesa</HobbesLink_TabletopStove.label>
+  <HobbesLink_TabletopStove.description>Mejora la velocidad de investigacion en un 4% y la velocidad de trabajo en un 3%. Limite 1 por banco.\n\nEste hornillo de investigacion de sobremesa esta listo para experimentar y mejorar la eficiencia de tus estudios. Adaptado a entornos de investigacion, aporta un aumento significativo de procesamiento.</HobbesLink_TabletopStove.description>
+
+  <HobbesLink_TabletopLabMachine.label>maquina de laboratorio de sobremesa</HobbesLink_TabletopLabMachine.label>
+  <HobbesLink_TabletopLabMachine.description>Mejora la velocidad de investigacion en un 4%. Limite 1 por banco.\n\nEsta maquina de laboratorio de sobremesa, un equipo versatil, cubre necesidades de investigacion diversas. Facilita conexiones con distintas configuraciones y agiliza tus experimentos con un enfoque innovador.</HobbesLink_TabletopLabMachine.description>
+
+  <HobbesLink_TabletopOscilloscope.label>osciloscopio de sobremesa</HobbesLink_TabletopOscilloscope.label>
+  <HobbesLink_TabletopOscilloscope.description>Mejora la velocidad de investigacion en un 4%. Limite 1 por banco.\n\nEste osciloscopio de sobremesa, un versatil companero de laboratorio, destaca en mediciones electronicas. Ademas de mejorar la eficiencia, aporta un mayor nivel de precision a tus experimentos.</HobbesLink_TabletopOscilloscope.description>
+
+  <HobbesLink_TabletopLabScanner.label>escaner de laboratorio de sobremesa</HobbesLink_TabletopLabScanner.label>
+  <HobbesLink_TabletopLabScanner.description>Mejora la velocidad de investigacion en un 4%. Limite 1 por banco.\n\nEste escaner de laboratorio de sobremesa, una herramienta versatil de investigacion, destaca en analisis variados. Su aumento de velocidad de investigacion lo vuelve un recurso indispensable para tus experimentos.</HobbesLink_TabletopLabScanner.description>
+
+  <HobbesLink_TabletopLabTubeRack.label>gradilla de tubos de sobremesa</HobbesLink_TabletopLabTubeRack.label>
+  <HobbesLink_TabletopLabTubeRack.description>Mejora la velocidad de investigacion en un 4% y la velocidad de trabajo en un 2%. Limite 1 por banco.\n\nEsta gradilla de tubos de laboratorio de sobremesa, un gran aliado de organizacion, facilita experimentos fluidos. Con almacenamiento eficiente y flujos optimizados, mejora la eficiencia general del laboratorio.</HobbesLink_TabletopLabTubeRack.description>
+
+  <HobbesLink_TabletopLabMicroscope.label>microscopio de laboratorio de sobremesa</HobbesLink_TabletopLabMicroscope.label>
+  <HobbesLink_TabletopLabMicroscope.description>Mejora la velocidad de investigacion en un 10%. Limite 1 por banco.\n\nEste microscopio de laboratorio de sobremesa, esencial para analisis minuciosos, esta orientado a la excelencia cientifica. Ofrece un aumento notable de velocidad de investigacion para exploraciones rapidas y detalladas.</HobbesLink_TabletopLabMicroscope.description>
+
+  <HobbesLink_BotanicalEnclosure.label>camara botanica</HobbesLink_BotanicalEnclosure.label>
+  <HobbesLink_BotanicalEnclosure.description>Mejora la velocidad de investigacion en un 18% cuando se coloca justo al lado de un banco. Limite 1 por banco.\n\nEsta camara botanica, un dispositivo de laboratorio especializado, esta disenada para el cultivo preciso de plantas. Adaptada a entornos controlados, no solo facilita estudios botanicos, tambien aumenta de forma importante la velocidad de investigacion.</HobbesLink_BotanicalEnclosure.description>
+
+  <HobbesLink_ServerRack.label>rack de servidores</HobbesLink_ServerRack.label>
+  <HobbesLink_ServerRack.description>Mejora la velocidad de investigacion en un 10%. Limite 3 por banco.\n\nEste rack de servidores, adaptado para integrarse sin fricciones con configuraciones de investigacion vinculadas, asegura un manejo eficiente de datos y aporta un incremento importante de velocidad de investigacion.</HobbesLink_ServerRack.description>
+</LanguageData>

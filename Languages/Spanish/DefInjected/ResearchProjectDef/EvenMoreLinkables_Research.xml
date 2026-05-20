@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HobbesLink_WorkshopErgonomics.label>ergonomia de taller</HobbesLink_WorkshopErgonomics.label>
+  <HobbesLink_WorkshopErgonomics.description>Disenos estandarizados de puestos de trabajo, dispositivos de sujecion mas seguros y diseno de procesos centrado en el rendimiento para herramientas de taller vinculadas.</HobbesLink_WorkshopErgonomics.description>
+
+  <HobbesLink_PrecisionMachining.label>redes de mecanizado de precision</HobbesLink_PrecisionMachining.label>
+  <HobbesLink_PrecisionMachining.description>Coordina herramientas de precision, modulos de esterilizacion y unidades de limpieza de procesos alrededor de bancos centrales para lograr mejoras fiables de calidad y velocidad.</HobbesLink_PrecisionMachining.description>
+
+  <HobbesLink_AutomatedFabricationLinks.label>enlaces de fabricacion automatizada</HobbesLink_AutomatedFabricationLinks.label>
+  <HobbesLink_AutomatedFabricationLinks.description>Integra asistentes roboticos y perifericos avanzados de fabricacion en celdas de produccion vinculadas.</HobbesLink_AutomatedFabricationLinks.description>
+
+  <HobbesLink_GridConditioning.label>acondicionamiento de red</HobbesLink_GridConditioning.label>
+  <HobbesLink_GridConditioning.description>Introduce hardware de regulacion mas inteligente para estabilizar y mejorar la entrega de energia del lado del generador.</HobbesLink_GridConditioning.description>
+
+  <HobbesLink_ThermalPowerManagement.label>gestion termica de energia</HobbesLink_ThermalPowerManagement.label>
+  <HobbesLink_ThermalPowerManagement.description>Aplica equilibrio termico avanzado y disciplina de refrigeracion a la infraestructura de generacion de energia.</HobbesLink_ThermalPowerManagement.description>
+
+  <HobbesLink_SpacerPowerCoupling.label>acoplamiento energetico espacial</HobbesLink_SpacerPowerCoupling.label>
+  <HobbesLink_SpacerPowerCoupling.description>Permite sistemas de acoplamiento de energia de grado espacial para amplificar generadores, con un coste considerable de materiales e infraestructura.</HobbesLink_SpacerPowerCoupling.description>
+
+  <HobbesLink_LabUtilities.label>utilidades de laboratorio</HobbesLink_LabUtilities.label>
+  <HobbesLink_LabUtilities.description>Establece instrumentos utilitarios vinculados para la preparacion rutinaria de ensayos y los flujos de trabajo de apoyo.</HobbesLink_LabUtilities.description>
+
+  <HobbesLink_LabElectronics.label>integracion electronica de laboratorio</HobbesLink_LabElectronics.label>
+  <HobbesLink_LabElectronics.description>Coordina instrumentacion digital y sistemas de datos entre bancos de investigacion vinculados.</HobbesLink_LabElectronics.description>
+
+  <HobbesLink_AdvancedResearchFacilities.label>instalaciones de investigacion avanzadas</HobbesLink_AdvancedResearchFacilities.label>
+  <HobbesLink_AdvancedResearchFacilities.description>Desbloquea infraestructura de laboratorio vinculada mas grande y de alto rendimiento para programas cientificos de fase avanzada.</HobbesLink_AdvancedResearchFacilities.description>
+</LanguageData>
